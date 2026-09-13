@@ -15,11 +15,18 @@ export const metadata: Metadata = {
 }
 
 export default function AboutPage() {
-  // A working shot from the events archive stands in as the portrait.
-  // TODO: replace with an actual photograph of Larry — a personal brand needs a face.
+  /*
+   * TODO: replace this with an actual photograph of Larry — a personal brand needs a
+   * face, and this is the page where people look for one.
+   *
+   * Until then it deliberately shows a piece of work rather than any person. An
+   * earlier pick happened to be a frame of models at an event, which sitting directly
+   * under the heading "Larry Lim" read as though it were a portrait of him.
+   */
   const eventsCategory = categories.find((c) => c.source === 'events')!
-  const portrait = photosFor(eventsCategory).find((p) => p.width / p.height < 1.1)
-    ?? photosFor(eventsCategory)[0]
+  const standIn =
+    photosFor(eventsCategory).find((p) => p.src.endsWith('/chanel-tr-dinner-10.webp')) ??
+    photosFor(eventsCategory)[0]
 
   return (
     <>
@@ -32,20 +39,25 @@ export default function AboutPage() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-14 lg:grid-cols-[1fr_1.2fr] lg:gap-20">
           <Reveal>
-            <div className="relative aspect-[4/5] overflow-hidden bg-ink-raised">
-              {portrait && (
-                <Image
-                  src={portrait.src}
-                  alt={`${site.photographer} on assignment in Singapore`}
-                  fill
-                  quality={85}
-                  sizes="(min-width: 1024px) 40vw, 100vw"
-                  placeholder={portrait.blurDataURL ? 'blur' : 'empty'}
-                  blurDataURL={portrait.blurDataURL || undefined}
-                  className="object-cover"
-                />
-              )}
-            </div>
+            <figure>
+              <div className="relative aspect-[4/5] overflow-hidden bg-ink-raised">
+                {standIn && (
+                  <Image
+                    src={standIn.src}
+                    alt={standIn.alt}
+                    fill
+                    quality={85}
+                    sizes="(min-width: 1024px) 40vw, 100vw"
+                    placeholder={standIn.blurDataURL ? 'blur' : 'empty'}
+                    blurDataURL={standIn.blurDataURL || undefined}
+                    className="object-cover"
+                  />
+                )}
+              </div>
+              <figcaption className="mt-3 text-xs text-bone-dim">
+                {standIn?.caption} &middot; Singapore
+              </figcaption>
+            </figure>
           </Reveal>
 
           <Reveal delay={100} className="space-y-6 text-base leading-relaxed text-bone-dim">
