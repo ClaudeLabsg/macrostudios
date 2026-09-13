@@ -1,0 +1,183 @@
+'use client'
+
+import Image from 'next/image'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import type { Photo } from '@/lib/gallery'
+
+/**
+ * Masonry gallery with a lightbox.
+ *
+ * Images keep their native aspect ratio — the old site forced everything into
+ * 1024x1024 squares, which destroys the composition that is the whole point of
+ * hiring a photographer. CSS columns give a masonry layout with no JS measuring
+ * and therefore no layout thrash.
+ */
+export default function Gallery({ photos }: { photos: Photo[] }) {
+  const [openIndex, setOpenIndex] = useState<number | null>(null)
+
+  const close = useCallback(() => setOpenIndex(null), [])
+  const next = useCallback(
+    () => setOpenIndex((i) => (i === null ? i : (i + 1) % photos.length)),
+    [photos.length]
+  )
+  const prev = useCallback(
+    () =>
+      setOpenIndex((i) =>
+        i === null ? i : (i - 1 + photos.length) % photos.length
+      ),
+    [photos.length]
+  )
+
+  return (
+    <>
+      <div className="columns-1 gap-3 sm:columns-2 sm:gap-4 lg:columns-3">
+        {photos.map((photo, i) => (
+          <button
+            key={photo.src}
+            type="button"
+            onClick={() => setOpenIndex(i)}
+            className="group mb-3 block w-full break-inside-avoid overflow-hidden bg-ink-raised sm:mb-4"
+            aria-label={`Open image: ${photo.caption}`}
+          >
+            <span className="relative block overflow-hidden">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                width={photo.width}
+                height={photo.height}
+                quality={82}
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+                blurDataURL={photo.blurDataURL || undefined}
+                // The first few are above the fold on most viewports.
+                loading={i < 3 ? 'eager' : 'lazy'}
+                className="h-auto w-full transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.03]"
+              />
+              <span
+                aria-hidden
+                className="absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/20"
+              />
+            </span>
+          </button>
+        ))}
+      </div>
+
+      {openIndex !== null && (
+        <Lightbox
+          photos={photos}
+          index={openIndex}
+          onClose={close}
+          onNext={next}
+          onPrev={prev}
+        />
+      )}
+    </>
+  )
+}
+
+function Lightbox({
+  photos,
+  index,
+  onClose,
+  onNext,
+  onPrev,
+}: {
+  photos: Photo[]
+  index: number
+  onClose: () => void
+  onNext: () => void
+  onPrev: () => void
+}) {
+  const photo = photos[index]
+  const closeRef = useRef<HTMLButtonElement>(null)
+  const previouslyFocused = useRef<HTMLElement | null>(null)
+
+  useEffect(() => {
+    previouslyFocused.current = document.activeElement as HTMLElement
+    closeRef.current?.focus()
+    const { overflow } = document.body.style
+    document.body.style.overflow = 'hidden'
+
+    return () => {
+      document.body.style.overflow = overflow
+      // Return focus to the thumbnail that opened the lightbox.
+      previouslyFocused.current?.focus()
+    }
+  }, [])
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+      if (e.key === 'ArrowRight') onNext()
+      if (e.key === 'ArrowLeft') onPrev()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onClose, onNext, onPrev])
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={photo.caption}
+      // Fully opaque: at 97% the fixed header showed through behind the photograph.
+      className="fixed inset-0 z-[60] flex flex-col bg-ink"
+      onClick={onClose}
+    >
+      <div className="flex items-center justify-between px-6 py-5">
+        <p className="text-sm text-bone-dim">
+          {index + 1} / {photos.length}
+        </p>
+        <button
+          ref={closeRef}
+          type="button"
+          onClick={onClose}
+          className="rounded-full border border-ink-line px-4 py-2 text-sm text-bone-dim transition-colors hover:border-bone hover:text-bone"
+        >
+          Close
+        </button>
+      </div>
+
+      <div
+        className="relative flex flex-1 items-center justify-center px-4 pb-4"
+        // Clicks on the image itself should not close the dialog.
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          type="button"
+          onClick={onPrev}
+          aria-label="Previous image"
+          className="absolute left-2 z-10 flex h-12 w-12 items-center justify-center rounded-full text-2xl text-bone/60 transition-colors hover:bg-bone/10 hover:text-bone sm:left-6"
+        >
+          &#8249;
+        </button>
+
+        <Image
+          key={photo.src}
+          src={photo.src}
+          alt={photo.alt}
+          width={photo.width}
+          height={photo.height}
+          quality={90}
+          sizes="100vw"
+          placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+          blurDataURL={photo.blurDataURL || undefined}
+          className="max-h-full w-auto max-w-full object-contain"
+        />
+
+        <button
+          type="button"
+          onClick={onNext}
+          aria-label="Next image"
+          className="absolute right-2 z-10 flex h-12 w-12 items-center justify-center rounded-full text-2xl text-bone/60 transition-colors hover:bg-bone/10 hover:text-bone sm:right-6"
+        >
+          &#8250;
+        </button>
+      </div>
+
+      <p className="px-6 pb-6 text-center text-sm text-bone-dim">
+        {photo.caption}
+      </p>
+    </div>
+  )
+}

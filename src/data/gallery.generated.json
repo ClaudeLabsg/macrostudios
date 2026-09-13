@@ -1,0 +1,2309 @@
+{
+  "ads": [
+    {
+      "src": "/images/ads/56745555-2315718555162652-8405681551563554816-o.webp",
+      "width": 2000,
+      "height": 740,
+      "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoMAAQABIByJQBOgCHpO9eYAP7oVX84KAxe+VkZwN6bbm2KBQAAAA==",
+      "bytes": 69886,
+      "original": 0,
+      "name": "56745555-2315718555162652-8405681551563554816-o"
+    },
+    {
+      "src": "/images/ads/adverts.webp",
+      "width": 629,
+      "height": 630,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoMAAwABIByJbACdAEQCyWNCoAA/I+8Q8UWWeZ19eDiZh73xfQ7M1/wE4IXMxzJAvS0w0I0XqMKXCzfAwzw6mYA",
+      "bytes": 95774,
+      "original": 0,
+      "name": "adverts"
+    },
+    {
+      "src": "/images/ads/aox.webp",
+      "width": 1688,
+      "height": 1688,
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoMAAwABIByJZwAAxYfjYIAAP7wOdMKlNWMHeMGdbdPbAUnO/LCIWt00r6gAAAA",
+      "bytes": 88732,
+      "original": 0,
+      "name": "aox"
+    },
+    {
+      "src": "/images/ads/aox-chen-xiuhuan-1.webp",
+      "width": 1059,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAwAQCdASoGAAwABIByJZQAA3AA/vAXw2fJjEKEJ30PV705hjkQBNNJMbBNbiZ/QPAAAA==",
+      "bytes": 98262,
+      "original": 0,
+      "name": "aox-chen-xiuhuan-1"
+    },
+    {
+      "src": "/images/ads/aox-chen-xiuhuan-2.webp",
+      "width": 1060,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoGAAwABIByJZwAApyteK3oAAD+6xzP5wDldLfX4QlWKNON5jAm3PowkSE/TFTYAAA=",
+      "bytes": 108340,
+      "original": 0,
+      "name": "aox-chen-xiuhuan-2"
+    },
+    {
+      "src": "/images/ads/aox-geping-1.webp",
+      "width": 1080,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoMAAwABIByJZwAAp1VKdZ9AAD+7W8wcg98DRLuz9f+gtqmzirArhJ51AAAAA==",
+      "bytes": 53620,
+      "original": 0,
+      "name": "aox-geping-1"
+    },
+    {
+      "src": "/images/ads/aox-geping-2.webp",
+      "width": 1080,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoMAAwABIByJYgC7ADHjz+lTYAA/uqm3dQUo2fqe/7B1VA/rxzbUqqRm19Nnmq4WtcLm/nM3zP3TKD3fHP9EwUXiYad3wSjfZ/AAA==",
+      "bytes": 76328,
+      "original": 0,
+      "name": "aox-geping-2"
+    },
+    {
+      "src": "/images/ads/aox-geping-3.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoMAAwABIByJagC7AEM1pRl0SoAAP7hxWA7WFsdt+SlwbbefMwtPXqR07lrsu/Puf6LILJhHsUc8t6e5fLmAjUam6fAAA==",
+      "bytes": 164504,
+      "original": 0,
+      "name": "aox-geping-3"
+    },
+    {
+      "src": "/images/ads/aox-geping-4.webp",
+      "width": 1600,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoMAAwABIByJbACdADZoCfNAAD+7W9XR9l5WqcDbJnv6SSjxfMLkJ+D/3CK+qzuMKQpIPATfW/9dWrbjwjBUMg3Ixdu0AAA",
+      "bytes": 104640,
+      "original": 0,
+      "name": "aox-geping-4"
+    },
+    {
+      "src": "/images/ads/aox-geping-5.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoMAAwABIByJZQAAt1ubCFZQgAA/tXac/RB96bj4GFzzShGi9geTlILAAlc1afBARtIt7izF+ZFZQgf8RZCJB0AAAA=",
+      "bytes": 105112,
+      "original": 0,
+      "name": "aox-geping-5"
+    },
+    {
+      "src": "/images/ads/aox-geping-6.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMAAwABIByJaAC7AEO4ADG+aLQAP7F9s/V5dlVQUFo3UGJqX42NWoj6zI610v8MKFUCIlGXvGH0XqSFmkgx3BbMtBxtsiAAAA=",
+      "bytes": 151480,
+      "original": 0,
+      "name": "aox-geping-6"
+    },
+    {
+      "src": "/images/ads/aox-geping-sherry.webp",
+      "width": 1080,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoMAAwABIByJZwAAjxmS3wAAP7gqK8sMyqy8Wm7aXyJx1qip8QxWBHR9l7EhIsT7+Lw4AAA",
+      "bytes": 66576,
+      "original": 0,
+      "name": "aox-geping-sherry"
+    },
+    {
+      "src": "/images/ads/aox-geping-sherry-2.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAwABIByJaACdAD6GdBegAD+s7CUXYA8sMeFc/NV4Zhjwy7PyDTpOl6eU6bkydcvjxrB4GGGFMkZAAA=",
+      "bytes": 119874,
+      "original": 0,
+      "name": "aox-geping-sherry-2"
+    },
+    {
+      "src": "/images/ads/aox-jin-yin-ji-1.webp",
+      "width": 1600,
+      "height": 1600,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoMAAwABIByJZACdH8AEgnz6oLlAAD+7acFL3XkV5c5RrNqKMM97Uib0/VblFsphzHM14ZkikW8/zvLSln+y2fTtKu+NAN55krHy2K56gAAAA==",
+      "bytes": 117256,
+      "original": 0,
+      "name": "aox-jin-yin-ji-1"
+    },
+    {
+      "src": "/images/ads/aox-jin-yin-ji-2.webp",
+      "width": 1080,
+      "height": 1350,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoKAAwABIByJZQAAvh34Wd0AP7gqK1/dJ/u2VZT3LQyUtjjCz7yId4dMBAAAA==",
+      "bytes": 60890,
+      "original": 0,
+      "name": "aox-jin-yin-ji-2"
+    },
+    {
+      "src": "/images/ads/aox-sherry-1.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoMAAwABIByJYwC7AEPhbfOgAD+5z7PdI6ftzRqLGySDj/QF2gq8hEuQscioAAA",
+      "bytes": 115094,
+      "original": 0,
+      "name": "aox-sherry-1"
+    },
+    {
+      "src": "/images/ads/beauy-cleanse.webp",
+      "width": 982,
+      "height": 1472,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoIAAwABIByJYgCdAD5dTrNAAD+WEHPb/JYNsjA3kDz6mVMnU79R+FLNNOWwply6hUlpsTFPt7z1pEIIWoklAAA",
+      "bytes": 66130,
+      "original": 0,
+      "name": "beauy-cleanse"
+    },
+    {
+      "src": "/images/ads/beinen-baron.webp",
+      "width": 1224,
+      "height": 612,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAYABIByJagCdADbMCegYAD9TzSYDi8qYVh3Lgtfql5ovddZIXl6Q09DxappjydWJgJ0bmEGmYAA",
+      "bytes": 156924,
+      "original": 0,
+      "name": "beinen-baron"
+    },
+    {
+      "src": "/images/ads/business-times-1.webp",
+      "width": 740,
+      "height": 903,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoKAAwABIByJZwAArCeZ23igAD7F3m8y5jFANptTt1HUiPBVrZpSs4qG5YxIy6MBE4AAA==",
+      "bytes": 105740,
+      "original": 0,
+      "name": "business-times-1"
+    },
+    {
+      "src": "/images/ads/business-times-2.webp",
+      "width": 742,
+      "height": 901,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoKAAwABIByJZwAAsfrwYjgAwAA/miNrn9/9L1AdQR+od7QQBHHu9Yv/SwbdOd7hAA=",
+      "bytes": 201122,
+      "original": 0,
+      "name": "business-times-2"
+    },
+    {
+      "src": "/images/ads/chu-collagen.webp",
+      "width": 1170,
+      "height": 1754,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoIAAwABIByJQBOgB6WPYDdnoAA/uJr3NlnLB141ax71nqzYWorqzeOae6L3VNykPY+58In3ynMAAAA",
+      "bytes": 156960,
+      "original": 0,
+      "name": "chu-collagen"
+    },
+    {
+      "src": "/images/ads/chu-collagen-1.webp",
+      "width": 1080,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoMAAwABIByJbACdAEO9obYyIAA/vHIXWDh61961NvyAWtRtdsnSNc7p0ulx3MPTNjldtxvevZpB8L8v3rfc9osAAA=",
+      "bytes": 68602,
+      "original": 0,
+      "name": "chu-collagen-1"
+    },
+    {
+      "src": "/images/ads/chu-collagen-2r.webp",
+      "width": 883,
+      "height": 1322,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoIAAwABIByJQBOgB6P1hJw9RgAAP6saBVwNfjLRIL3geVZLgBUyrNbi8PeAsaCKBAb+7SGh/qgAA==",
+      "bytes": 137998,
+      "original": 0,
+      "name": "chu-collagen-2r"
+    },
+    {
+      "src": "/images/ads/chu-collagen-yvonne-lim.webp",
+      "width": 1080,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoGAAwABIByJYwAAp1dOcTZdIAA/uhmaUO5pmgBGmjBmvxiwL553KdCvX4c2l+AAAA=",
+      "bytes": 84126,
+      "original": 0,
+      "name": "chu-collagen-yvonne-lim"
+    },
+    {
+      "src": "/images/ads/crestar.webp",
+      "width": 1807,
+      "height": 901,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAYABIByJYgCdAEXZYZp0AD+ZlvWf2EwugcEoGQE3L15C5316MyHLJK++AUXnsy+bYJOJlMfewAA",
+      "bytes": 281730,
+      "original": 0,
+      "name": "crestar"
+    },
+    {
+      "src": "/images/ads/dsc-4503e.webp",
+      "width": 2000,
+      "height": 853,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoMAAUABIByJZQCsAEDoQwkjAAA/j/aGAqko0qlgFRXgsJhTHajvkMYAAA=",
+      "bytes": 175388,
+      "original": 0,
+      "name": "dsc-4503e"
+    },
+    {
+      "src": "/images/ads/facework-aesthetic-uweekly.webp",
+      "width": 1609,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAQCdASoKAAwABIByJQAJwAD81YAA/ged9VCjtEDwYWRLM4dh4ouJJ6saTaAYJ9fGZXAMzqiooLgA4AA=",
+      "bytes": 195874,
+      "original": 0,
+      "name": "facework-aesthetic-uweekly"
+    },
+    {
+      "src": "/images/ads/fnp.webp",
+      "width": 828,
+      "height": 828,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoMAAwABIByJbACdAEQ0lxxbqIAAP2MzQro/2MMJLBLo1Hn3ewwScCxJYVxqDR9gfsF5SpmRnlz90v0g+SoL8/EJjbv/oAA",
+      "bytes": 73176,
+      "original": 0,
+      "name": "fnp"
+    },
+    {
+      "src": "/images/ads/fnp-10.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoMAAwABIByJYgCdADcWQne3gAA/slBjoCtQ6BVs/rNpYvYUCkWo8TBAdGIjUJ9Y0Xnds0tpXbmjr1SH7QUOjz/ukLNmJKMPoS8AAAA",
+      "bytes": 165286,
+      "original": 0,
+      "name": "fnp-10"
+    },
+    {
+      "src": "/images/ads/fnp-2.webp",
+      "width": 828,
+      "height": 828,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoMAAwABIByJQBOgBXQ2PTAAP7nQKeTo9fVwkOyuFwfcrnV9bLMVp8I/8OoRXRWz/kANtL87QBC5XVl5aBdj3JYAAA=",
+      "bytes": 53442,
+      "original": 0,
+      "name": "fnp-2"
+    },
+    {
+      "src": "/images/ads/fnp-3.webp",
+      "width": 1920,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoMAAcABIByJZAAAlxUwEmAAP5xxYSIOwCmIH//2nXHb5hoyQv9JdDqvnAAAA==",
+      "bytes": 234040,
+      "original": 0,
+      "name": "fnp-3"
+    },
+    {
+      "src": "/images/ads/fnp-4.webp",
+      "width": 1080,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoMAAwABIByJbACdAEf3LuxeKgA/rIFEivPo/gzC4OD8nD0k9anj1faUGQ+Hsybp8RI8Icye++He7OjXPG0Mc9dwg3QoAAA",
+      "bytes": 115610,
+      "original": 0,
+      "name": "fnp-4"
+    },
+    {
+      "src": "/images/ads/fnp-5.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoMAAwABIByJbACdAEQzZZUh8LHcAD+79+3xlQfL8F4DIUWFNBQ/KMfKQwect+Wy2dSuzezw2J3DWJkLymTv3eTIZMXW9GsB6Uy2uBe0sAAAA==",
+      "bytes": 320338,
+      "original": 0,
+      "name": "fnp-5"
+    },
+    {
+      "src": "/images/ads/fnp-6.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoMAAwABIByJbACdAEO0WYOV+AA/t6GC2sPBMcmn2E+xL0hjLvLIzoyLJPOmxmA9CnOUeewF87aFG4pk/dU2R+r6wcwrR5UWRWATgAA",
+      "bytes": 263412,
+      "original": 0,
+      "name": "fnp-6"
+    },
+    {
+      "src": "/images/ads/fnp-7.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoMAAwABIByJaACdAED/5JwgnkuAAD+6F/IPHivp7iWGLTkskK50EByhS25VLqDEeOX3nJqc83D+ySGio/3vYWOXsPx5qLa83sqr3tPacAAAA==",
+      "bytes": 272416,
+      "original": 0,
+      "name": "fnp-7"
+    },
+    {
+      "src": "/images/ads/fnp-8.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoMAAwABIByJagCdAYrxt1xND+NgAD+6qMH5R6KQS0rDHzlXArIflGwQuQMEAu7JXLpC6sl2aIikje+Cxff81vnMYGAa8Zxw9xQAA==",
+      "bytes": 234268,
+      "original": 0,
+      "name": "fnp-8"
+    },
+    {
+      "src": "/images/ads/fnp-9.webp",
+      "width": 2000,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMAAwABIByJQBOgCB0rzA+GUwAAP7Xhyu5iTSDXjgxt4WFya63adz/kYFW8WmxGPBRT/UxSIjcq6XHiWyYFOnCQ/GZ2cMFgAA=",
+      "bytes": 233594,
+      "original": 0,
+      "name": "fnp-9"
+    },
+    {
+      "src": "/images/ads/fnp-clark-quay-mrt-1.webp",
+      "width": 2000,
+      "height": 1500,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAkABIByJQBOgBea0jUAAAD+iPeLJPR+TmYKYcTRMmS4L+PdhjsyBy+vxfc6Ttpd5RV9HZKVl+PAAAA=",
+      "bytes": 504222,
+      "original": 0,
+      "name": "fnp-clark-quay-mrt-1"
+    },
+    {
+      "src": "/images/ads/fp-7th-month-e-catalogue-1.webp",
+      "width": 1414,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoIAAwABIByJbACdAEOYVCAAP7IdO0w1BibsWCbjbiGMKGEEQIBHY3EF87MjG8NnSGmHTDGVbgEDcGUr8Bo4/6AAAA=",
+      "bytes": 316354,
+      "original": 0,
+      "name": "fp-7th-month-e-catalogue-1"
+    },
+    {
+      "src": "/images/ads/fp-7th-month-e-catalogue-2.webp",
+      "width": 1414,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoIAAwABIByJZgCdAEOeGU8wAD+yHTtIcU98jF7zcCL0LhsogRBeMPgaRsMw7c08v8GNZrGUQbCkIOwAAA=",
+      "bytes": 369912,
+      "original": 0,
+      "name": "fp-7th-month-e-catalogue-2"
+    },
+    {
+      "src": "/images/ads/g-mes-zgp.webp",
+      "width": 1920,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoMAAcABIByJZwAAxYUE8wjXXIAAP7F/JGyRIU8IY5H3mHLvsUJgEC466YBlLRScOU7pZkEyYK2AAAA",
+      "bytes": 186286,
+      "original": 0,
+      "name": "g-mes-zgp"
+    },
+    {
+      "src": "/images/ads/gatsby-1.webp",
+      "width": 828,
+      "height": 828,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAQCdASoMAAwABIByJbACdABnEoAA/MwvHTwZraDVPqDwY8CHtTkIY5VVjNWnDsM4PzStruivnqgRGltitySXzD+X7fFyGLfjoagybSH8qzRU4AA=",
+      "bytes": 95492,
+      "original": 0,
+      "name": "gatsby-1"
+    },
+    {
+      "src": "/images/ads/gatsby-2.webp",
+      "width": 828,
+      "height": 828,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoMAAwABIByJbACdADhleAUMo4+gAD4tkRWI9aKoC6MYSwijjXIDgRnwoaQ3rduxgpL9o1kgKNyRGXzQeDjzPxdYdIKvODTVd0XNM03sAA=",
+      "bytes": 91742,
+      "original": 0,
+      "name": "gatsby-2"
+    },
+    {
+      "src": "/images/ads/gatsby-3.webp",
+      "width": 828,
+      "height": 828,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoMAAwABIByJbACdH8AFNuGXBWQAP61IfJ4eQPG7hznAyYR8DPtl6Sxq1gA65rYcU6rau3NmhvlAeDspBzb0CRwWN+QAAAA",
+      "bytes": 61852,
+      "original": 0,
+      "name": "gatsby-3"
+    },
+    {
+      "src": "/images/ads/gnome-and-bow.webp",
+      "width": 1213,
+      "height": 1533,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoJAAwABIByJYwC7ADconqD4AAA9cc54lYq7RkxDgrei4D6DDdVlMsxO0RBqxsdpPg8NxNPschlhjaAAAA=",
+      "bytes": 147050,
+      "original": 0,
+      "name": "gnome-and-bow"
+    },
+    {
+      "src": "/images/ads/goldkili.webp",
+      "width": 1080,
+      "height": 567,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAYABIByJZACdAELUAr3CPAA/eOv+JMzqDgWwku4CUDVbqSD40L+dfAoSG4Dhe2jMOfieH7t0uPQ34sAAA==",
+      "bytes": 60374,
+      "original": 0,
+      "name": "goldkili"
+    },
+    {
+      "src": "/images/ads/goldkili-national-day-2018.webp",
+      "width": 940,
+      "height": 940,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoMAAwABIByJbACdH8AFBXZC0LdsAD+hjpcIebw2Pi8s+DF8lSbNxukNM8DUUX4e31HK0wAmxTF7U7dqVhk2qagJDBXGlhyYT1l/gYOi21jDnGC47AAAA==",
+      "bytes": 133402,
+      "original": 0,
+      "name": "goldkili-national-day-2018"
+    },
+    {
+      "src": "/images/ads/hsbc.webp",
+      "width": 1170,
+      "height": 1517,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoJAAwABIByJQBdgCHXgagQAAD+W/kKO0kMDl+gedzndgj1v4DGcx5OlMEhQxOYNQAAAA==",
+      "bytes": 113838,
+      "original": 0,
+      "name": "hsbc"
+    },
+    {
+      "src": "/images/ads/img-2540.webp",
+      "width": 750,
+      "height": 1334,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoHAAwABIByJQBOj+ACcAHgAAD8zD8jogSyMc1r6QhrJDFQhUKWFy9+bq4DD9DcW+9Am8bqAAA=",
+      "bytes": 60988,
+      "original": 0,
+      "name": "img-2540"
+    },
+    {
+      "src": "/images/ads/img-4302.webp",
+      "width": 1000,
+      "height": 1000,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoMAAwABIByJZAAAu19GsVUKAD+8YI9/FWkPmdzvD6ZrL1hVp+Hmki+mrep5gHaJT4jGdGqCJRXG36v6H1xTsEQeAA=",
+      "bytes": 69206,
+      "original": 0,
+      "name": "img-4302"
+    },
+    {
+      "src": "/images/ads/img-5553.webp",
+      "width": 960,
+      "height": 960,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAwABIByJZQC7AELzUxrgAD+5bmyZ1xSbsf/5VEGYEqwsgVsI+PgAb3rMkV53yQAN1jbyKpoAA==",
+      "bytes": 72788,
+      "original": 0,
+      "name": "img-5553"
+    },
+    {
+      "src": "/images/ads/img-7516.webp",
+      "width": 828,
+      "height": 828,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoMAAwABIByJbACdH8AGNuS+Ql6AAD+jS3/1f9NDEXJPEj5GmN8s0wFtLfAJAPcUKOWxzsBEVq7gfPlR4UiaR4d87xBcAAA",
+      "bytes": 64612,
+      "original": 0,
+      "name": "img-7516"
+    },
+    {
+      "src": "/images/ads/img-7638.webp",
+      "width": 828,
+      "height": 828,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoMAAwABIByJagCdADdgy0lxgAA/uI3AWy6lPzePkYUlO4G0R92IXiUAJHt+v2yOUSq/MBpixLZloyiYm9mcvBO9k/qTNhntXBBBS72dWmkXkAA",
+      "bytes": 55466,
+      "original": 0,
+      "name": "img-7638"
+    },
+    {
+      "src": "/images/ads/macdonalds-website.webp",
+      "width": 2000,
+      "height": 1125,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoMAAcABIByJYgCdAEPBKZS6XoAAP7uMVlYEtDNRY9h06D/20VFPShweV9WkHJMM5kYWx1kIiuovugA",
+      "bytes": 126344,
+      "original": 0,
+      "name": "macdonalds-website"
+    },
+    {
+      "src": "/images/ads/ogawa.webp",
+      "width": 2000,
+      "height": 740,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoMAAQABIByJZgCdADdIyWDYAD+33jGp/sVUbdJ/jLid1euvxd3iUU5bAwAAA==",
+      "bytes": 49010,
+      "original": 0,
+      "name": "ogawa"
+    },
+    {
+      "src": "/images/ads/ogawa-christmas-booklet-1.webp",
+      "width": 867,
+      "height": 1224,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoIAAwABIByJbACdAD0unWCbkVAAP68IrJnSpFoETNa2sYPeRW9abSQ+WaD6jSUnzXnb0zvWeoHA6gpQsd4lIUd4DFv97Cg0rCgAA==",
+      "bytes": 199686,
+      "original": 0,
+      "name": "ogawa-christmas-booklet-1"
+    },
+    {
+      "src": "/images/ads/ogawa-christmas-booklet-2.webp",
+      "width": 858,
+      "height": 1221,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoIAAwABIByJbACdAD0SP4P5AAA/s2oPoMlLzIM41mF7oFvsm1aF5jPHFXuD2B9k5G7TPv8Cdgx7BmdTu3k4aL3ujJt+AsnVG7gAA==",
+      "bytes": 176498,
+      "original": 0,
+      "name": "ogawa-christmas-booklet-2"
+    },
+    {
+      "src": "/images/ads/ogawa-christmas-booklet-3.webp",
+      "width": 858,
+      "height": 1225,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoIAAwABIByJYgCdAD0gGlvFxwAAP7fJ6hdco0a0ZA2jP3TaxSXerVsN0VCNA9cts1SSrlFaYWAE47o4AAAAA==",
+      "bytes": 223492,
+      "original": 0,
+      "name": "ogawa-christmas-booklet-3"
+    },
+    {
+      "src": "/images/ads/ogawa-cny-resized.webp",
+      "width": 2000,
+      "height": 1500,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoMAAkABIByJbACdAELY6JDtAD8j8lvYqeSy1ks3spxU0NbFibFVG/8eWR4hsFII2tkriAXuQ18ymxSWxN/AAAA",
+      "bytes": 278520,
+      "original": 0,
+      "name": "ogawa-cny-resized"
+    },
+    {
+      "src": "/images/ads/ogawa-fathers-day.webp",
+      "width": 2000,
+      "height": 740,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoMAAQABIByJbACdADdGF3sAP6B9O3kQ5PGPyy3Hlw8iM5JkqISbSjvy//e3sxIAr1vgAAA",
+      "bytes": 86806,
+      "original": 0,
+      "name": "ogawa-fathers-day"
+    },
+    {
+      "src": "/images/ads/ogawa-genix.webp",
+      "width": 2000,
+      "height": 740,
+      "blurDataURL": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACwAQCdASoMAAQABIByJZwAAxOgCGloAP7tzY+WZiCVkSAr8K9uKAAA",
+      "bytes": 160962,
+      "original": 0,
+      "name": "ogawa-genix"
+    },
+    {
+      "src": "/images/ads/ogawa-hayley-1.webp",
+      "width": 944,
+      "height": 600,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoMAAgABIByJQBOgCHw497aRgAA/pFy3kMEcGCJFU8iX3RZAx6EFtSIAAA=",
+      "bytes": 20988,
+      "original": 0,
+      "name": "ogawa-hayley-1"
+    },
+    {
+      "src": "/images/ads/ogawa-jack-neo-3.webp",
+      "width": 2000,
+      "height": 739,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoMAAQABIByJbACdADJu3TcAAD+51OHdCyEBiNsRxuX28S29S+2t9xCm3DAAA==",
+      "bytes": 44740,
+      "original": 0,
+      "name": "ogawa-jack-neo-3"
+    },
+    {
+      "src": "/images/ads/ogawa-jack-neo-4.webp",
+      "width": 2000,
+      "height": 738,
+      "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoMAAQABIByJQBdgCHgpTlkAAD+CsJUubJZ/vwKwy8OSMOe+1EgAA==",
+      "bytes": 60836,
+      "original": 0,
+      "name": "ogawa-jack-neo-4"
+    },
+    {
+      "src": "/images/ads/ogawa-jack-neo-5.webp",
+      "width": 2000,
+      "height": 740,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoMAAQABIByJbACdADE/ZYAAP7mkkV5Vyq10CAYxV595jHVasZ035Hwb2AE9paSaAA=",
+      "bytes": 63188,
+      "original": 0,
+      "name": "ogawa-jack-neo-5"
+    },
+    {
+      "src": "/images/ads/ogawa-mothers-day.webp",
+      "width": 2000,
+      "height": 740,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoMAAQABIByJbAC7AD7Kyn3YgAA+FmPLEIvbCoVUJtYhSktfmCWx38J61rtKpmcG4AAAA==",
+      "bytes": 89130,
+      "original": 0,
+      "name": "ogawa-mothers-day"
+    },
+    {
+      "src": "/images/ads/ogawa-omknee-2-hayley.webp",
+      "width": 800,
+      "height": 800,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoMAAwABIByJQAAS3CPQRAA/uJu17fZZ+iBseoV4CVdQ/QM9WTEeKbq1fZlFB1L8oLTX71pkm6MQZ8BuDZNlFWtGaPmgAAA",
+      "bytes": 47580,
+      "original": 0,
+      "name": "ogawa-omknee-2-hayley"
+    },
+    {
+      "src": "/images/ads/ogawa-van-jack-neo.webp",
+      "width": 2000,
+      "height": 1500,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoMAAkABIByJYwCw7DYuYfAAP6YGQYLaNM7qNXOv5B7RIKC6s4W0DrLuU5MaGIPL0hONAAA",
+      "bytes": 424976,
+      "original": 0,
+      "name": "ogawa-van-jack-neo"
+    },
+    {
+      "src": "/images/ads/ogawa-xmas.webp",
+      "width": 580,
+      "height": 440,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMAAkABIByJbACdADbYTriQAD+rEDQZUJ3+heXS9+vpMIPchmmRzojVSrH9K37vM5wRChup4BHdNzV12Nhjb5Z1xkOR7FNQAA=",
+      "bytes": 30110,
+      "original": 0,
+      "name": "ogawa-xmas"
+    },
+    {
+      "src": "/images/ads/one-degree-15.webp",
+      "width": 1044,
+      "height": 1477,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoIAAwABIByJZwAAuWH4aAA/ud5IHUgRDUT8G4PEYfBIXdkG6lRnd4Gv9LN/6Th45HM1WoITY9RwAAA",
+      "bytes": 142438,
+      "original": 0,
+      "name": "one-degree-15"
+    },
+    {
+      "src": "/images/ads/powerhouse-1.webp",
+      "width": 1620,
+      "height": 1080,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAQCdASoMAAgABIByJZwAAbh5qwAA/u9U9tH4n3kprmqJQDw6UKw1jITCdk2KNv7FDunoNaampDcgAAA=",
+      "bytes": 163892,
+      "original": 0,
+      "name": "powerhouse-1"
+    },
+    {
+      "src": "/images/ads/puregold-1.webp",
+      "width": 2000,
+      "height": 922,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoMAAYABIByJYgCdAEO/gLsAP7wP1bXx13vkCuZqHIOvfKlUdbYAAxf5ZVTp1TAAAA=",
+      "bytes": 94666,
+      "original": 0,
+      "name": "puregold-1"
+    },
+    {
+      "src": "/images/ads/richard-legrand-watch.webp",
+      "width": 1585,
+      "height": 1012,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoMAAgABIByJaQAAn/XRoFAAP7wSiN/+X7NFzvCojek1O054IOEUEiMv29SL7HNw6bvcm8AAAA=",
+      "bytes": 63860,
+      "original": 0,
+      "name": "richard-legrand-watch"
+    },
+    {
+      "src": "/images/ads/robb-report-x-hsbc.webp",
+      "width": 750,
+      "height": 888,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoKAAwABIByJYwCw7ELVdBA0kAA/u3Y10t+NMV9xsWMerEbn5QGmr/tz6GyUWfwAuqXQFV0sAWy3vYh4wAAAA==",
+      "bytes": 69824,
+      "original": 0,
+      "name": "robb-report-x-hsbc"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-1.webp",
+      "width": 1601,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoKAAwABIByJYwCdAEXfssg8UN7AAD4Xm5rVHzmRT6XN0Sv9F1E/LN1vw+GUtdq92hajtdIkce+VpQpBfxSiZGpAAA=",
+      "bytes": 144152,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-1"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-11.webp",
+      "width": 1333,
+      "height": 1666,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoKAAwABIByJQBOgCfdFaF2eCuVgAD+74bZC5X3lZcTjtpeF6+jiKsuDh9Tz/BKwFTMYx/F/D8YV8ooZxh+te1RAAA=",
+      "bytes": 283190,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-11"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-12.webp",
+      "width": 1415,
+      "height": 1769,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoKAAwABIByJbACdADcIbZRw5cAAP6Jt4HpzlRsjvUYjA07u70FQEgi58kg4ICrE8u9PoFTihYn8D4JwMw7jMMY8cLpXy6MlrvBdeyKPMs2gcAA",
+      "bytes": 276482,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-12"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-2.webp",
+      "width": 1600,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoKAAwABIByJZAAAugu+rLDbtAA/sB3+olgVwp2sTmRsfIAMwZ/gEU6TrsHX62ddybYmJ19DxOpaVAldpaz4UWgcAHjoVj6hAA=",
+      "bytes": 222536,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-2"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-3.webp",
+      "width": 1600,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoKAAwABIByJYwCw7EerG1MroAA/tdgAJ7xOejqoAHJ7D6zP2zvYzA+dWFbpvbzoQwmW5wTjr+WkanvqKar7DmSV765E0zseAAAAA==",
+      "bytes": 180808,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-3"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-4.webp",
+      "width": 1600,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAgCdASoKAAwABIByJZQCdAEfUnzgrqjdAAD+72MPBH7ZxwC8XqLLSCFNxR+AJcMe9OiTTb0iQkefAAA=",
+      "bytes": 199506,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-4"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-5.webp",
+      "width": 1600,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoKAAwABIByJQBOgCByrbmTUAD+3JMyuJqUxFbZ+P2e5Sleq6JdLXS7eR4r/er1oGdv5fTHZM1gHK/nFE/8QWWGx8VkZr6tMAA=",
+      "bytes": 355682,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-5"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-6.webp",
+      "width": 1600,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoKAAwABIByJZACdAEO8eqO2aAA/j9ep9ZUqlKT+13UBGrgQpnO/PPS/NhVvsV2SEomNoO8ma2GDm8d1z2s8rv4MFqjRgCAAAA=",
+      "bytes": 208564,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-6"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-7.webp",
+      "width": 1600,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoKAAwABIByJZwAAmfosvQAAOIgAzCPLcZy6Mq2XWtRL4W0Twqj0uQKu6AseaYqKznJzVd09NNmFK2AAAA=",
+      "bytes": 129640,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-7"
+    },
+    {
+      "src": "/images/ads/sibay-shiok-starlivesg-8.webp",
+      "width": 1600,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoKAAwABIByJYgCdAEU6fDi9kAA/kD8HhjkMnWqFCzLWG85+BeAyUQKr1JmbYLpfLgyHFMQTz1PL0DgB8YLgI1aBZkS6AAA",
+      "bytes": 224900,
+      "original": 0,
+      "name": "sibay-shiok-starlivesg-8"
+    },
+    {
+      "src": "/images/ads/swiss-oats.webp",
+      "width": 2000,
+      "height": 1636,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoMAAoABIByJZQAAsf+B8501wAA/rNqfoHALmw5kRgTOhsm3ozyaEGqlYTwwdIbiBj5PgAA",
+      "bytes": 621508,
+      "original": 0,
+      "name": "swiss-oats"
+    },
+    {
+      "src": "/images/ads/swissoats-newspaper-website.webp",
+      "width": 1549,
+      "height": 858,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAcABIByJZwAAl3FHFItIAD+rG9Z4itGrxF/Wl7Z6ekiJ7Tz0nppOgiyc6jx0bWOkKXlWuJLcwcAAAA=",
+      "bytes": 131548,
+      "original": 0,
+      "name": "swissoats-newspaper-website"
+    },
+    {
+      "src": "/images/ads/the-celebrity-agency-deleted-gala.webp",
+      "width": 1170,
+      "height": 1799,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoIAAwABIByJQBOgCHiCA5kQYAA/f0xkR4UvMi/fdJE9QspUAoyKZEfkW+S08mVR6cazvYACEJgEIVQKOAAAA==",
+      "bytes": 124858,
+      "original": 0,
+      "name": "the-celebrity-agency-deleted-gala"
+    },
+    {
+      "src": "/images/ads/tyrequeen.webp",
+      "width": 1207,
+      "height": 683,
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoMAAcABIByJZACdAEPSZlEMAAA/pUGprJnrjuFRdRKDn3NPSbAyNjNHmgAAA==",
+      "bytes": 187466,
+      "original": 0,
+      "name": "tyrequeen"
+    },
+    {
+      "src": "/images/ads/vintage-studio-1.webp",
+      "width": 960,
+      "height": 542,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoMAAcABIByJZwAAuN8MgIAAP7mCUXGKwLTY66JELQNnuSZfelWj3YAAAA=",
+      "bytes": 37774,
+      "original": 0,
+      "name": "vintage-studio-1"
+    }
+  ],
+  "celebrities": [
+    {
+      "src": "/images/celebrities/adeline-hokulani.webp",
+      "width": 652,
+      "height": 977,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoIAAwABIByJQBOgBuHbG9IAAD+67yU2So+w83+r0YHAlEz3OTo5dhKLmKqG7XdfP9YaYK4sgfAoOC42sbsAA==",
+      "bytes": 35158,
+      "original": 0,
+      "name": "adeline-hokulani"
+    },
+    {
+      "src": "/images/celebrities/apple-chan.webp",
+      "width": 787,
+      "height": 1180,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoIAAwABIByJQBOgBwcKuQAAP5U8eI30RD6EZbe24/nBv7c62calU4mp2CljthV8iAAAA==",
+      "bytes": 73168,
+      "original": 0,
+      "name": "apple-chan"
+    },
+    {
+      "src": "/images/celebrities/audrey-tan.webp",
+      "width": 737,
+      "height": 1104,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoIAAwABIByJYwAAxOgJatPQAAA3NnVCYZ2NG10pz8Cl5TCL/r96h7WtLiWC6H8Zf8X0oR2jgISYE3hNgAAAA==",
+      "bytes": 97612,
+      "original": 0,
+      "name": "audrey-tan"
+    },
+    {
+      "src": "/images/celebrities/cindy-tan.webp",
+      "width": 715,
+      "height": 1072,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoIAAwABIByJQBOj+ADL4OXbC3YIADOL1DMta5Ct/bFnW6imTCyGKGq4WXANvXrnyL7dijQVb6Zl2MVZlEbpXlh/AAAAA==",
+      "bytes": 66322,
+      "original": 0,
+      "name": "cindy-tan"
+    },
+    {
+      "src": "/images/celebrities/dawn-yang.webp",
+      "width": 658,
+      "height": 986,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoIAAwABIByJQBOgB5quGoAAPzLNRTCd8VuO3jgw110xHhlM7HMG8/cotg1F2PAAAA=",
+      "bytes": 125094,
+      "original": 0,
+      "name": "dawn-yang"
+    },
+    {
+      "src": "/images/celebrities/denise-keller.webp",
+      "width": 892,
+      "height": 1337,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoIAAwABIByJYgCdIExFbJ++AAA/amnWRnceItNlUmLO/H9gscGzTYucpCjT3DgbhOhaSVk5VPQL3sChyAAAA==",
+      "bytes": 87354,
+      "original": 0,
+      "name": "denise-keller"
+    },
+    {
+      "src": "/images/celebrities/dennis-chew.webp",
+      "width": 505,
+      "height": 758,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoIAAwABIByJZACdAEegm9wNndAAP7STvXcbI4311h2YpDzKPBuIS8clJWo7kFK2I2+uuxSuq/x3HNvR2AvjZ7ICafUZgAA",
+      "bytes": 66872,
+      "original": 0,
+      "name": "dennis-chew"
+    },
+    {
+      "src": "/images/celebrities/er-gu.webp",
+      "width": 645,
+      "height": 967,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoIAAwABIByJZgCdAD0j6ohzAAA/u1gAqDxFihK+tXIQfU3lHfant+saOMYeSZqIAebdDyIzBqu2Iy5l8+AAAAA",
+      "bytes": 31960,
+      "original": 0,
+      "name": "er-gu"
+    },
+    {
+      "src": "/images/celebrities/jayley-woo.webp",
+      "width": 639,
+      "height": 958,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoIAAwABIByJZACdH8AC9qr+ADzwe59StSe29dbYXJetXC+NmZUP+brX8rbF5q8l1rNwY8AAAA=",
+      "bytes": 41720,
+      "original": 0,
+      "name": "jayley-woo"
+    },
+    {
+      "src": "/images/celebrities/marcus-chin.webp",
+      "width": 640,
+      "height": 959,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoIAAwABIByJaACdH8AGAzQgAAAywoxFNxjTbhQzibTU2nlQ68/SAxadRGwMzRprI9VQZpjBKaH30wA",
+      "bytes": 164646,
+      "original": 0,
+      "name": "marcus-chin"
+    },
+    {
+      "src": "/images/celebrities/mark-lee.webp",
+      "width": 673,
+      "height": 1008,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoIAAwABIByJQBdgCPg/0A6cWUAAP7vTTEQtjLHLtfxfX0JECyDPy9x+NkFzamzq9Y8XZsNDpbHwpBTnFrAAA==",
+      "bytes": 63192,
+      "original": 0,
+      "name": "mark-lee"
+    },
+    {
+      "src": "/images/celebrities/melissa-jane-ho.webp",
+      "width": 737,
+      "height": 1104,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoIAAwABIByJQBOgB6UXYfi6wAA/gFnPOQRiCfcW8fHxm90Isg63WjIw+s2D834Wh3KuNQhkM3qPiUex6CoAA==",
+      "bytes": 91746,
+      "original": 0,
+      "name": "melissa-jane-ho"
+    },
+    {
+      "src": "/images/celebrities/portraiture4.webp",
+      "width": 982,
+      "height": 1472,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoIAAwABIByJbACdAEXfksSIBgA/u9nprWYI6nj8SFXlsA7FtSiGvheGdcsnqnU/OlixKUsTJaTfP63p+OSlYAA",
+      "bytes": 187632,
+      "original": 0,
+      "name": "portraiture4"
+    },
+    {
+      "src": "/images/celebrities/royal-caribbean-7.webp",
+      "width": 737,
+      "height": 1104,
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoIAAwABIByJYgC7AEUnwlb0RgA/u/z89HYg8xd3r0UBUFGnKgjRbD+RlUGo+hIkZQYx2BzhtotOKdafNqztcJGjteFQAAA",
+      "bytes": 39892,
+      "original": 0,
+      "name": "royal-caribbean-7"
+    },
+    {
+      "src": "/images/celebrities/ryan-lian.webp",
+      "width": 626,
+      "height": 937,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoIAAwABIByJZQAAxU/0HDzlNAA/gAdCd2K0fWEBCkSsZWmeBRUsW4kvfj4+sSg49uKAAAA",
+      "bytes": 38100,
+      "original": 0,
+      "name": "ryan-lian"
+    },
+    {
+      "src": "/images/celebrities/shaun-chen.webp",
+      "width": 794,
+      "height": 1189,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoIAAwABIByJZQC7AEfk+Td4x0MAP6p/Ib1mbbVMCRJex1W/59K+hZKg2e8N3wkjyynLIBaWAAAAA==",
+      "bytes": 49392,
+      "original": 0,
+      "name": "shaun-chen"
+    },
+    {
+      "src": "/images/celebrities/shaun-owyeong.webp",
+      "width": 694,
+      "height": 1039,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoIAAwABIByJYgCdADzVFHAAP3Uw0xNJbJEyF3WrJOAmtEKJcbGSyRQM8pnDbDUyDXYN/gYAAA=",
+      "bytes": 171234,
+      "original": 0,
+      "name": "shaun-owyeong"
+    },
+    {
+      "src": "/images/celebrities/sheena-phua.webp",
+      "width": 798,
+      "height": 1195,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAgCdASoIAAwABIByJaACdIExGBwIVKMD+AAA+N11QTmVgyFsX8cR930KqR+/T/v4PshRhlkZqv6EhqIX5NluYiQSNHpaOGQAAA==",
+      "bytes": 95840,
+      "original": 0,
+      "name": "sheena-phua"
+    },
+    {
+      "src": "/images/celebrities/yuan-shuai.webp",
+      "width": 737,
+      "height": 1104,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoIAAwABIByJZwAAl3HjhIAAP7d+UzQTqrm/FLnHfYD8RbRzmYzHQhQAAA=",
+      "bytes": 48798,
+      "original": 0,
+      "name": "yuan-shuai"
+    },
+    {
+      "src": "/images/celebrities/zheng-geping.webp",
+      "width": 691,
+      "height": 1035,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoIAAwABIByJZQC06ED4DRzwAD+2AmDGZPRlGp71RWzjwKI1QLMIf69ymRkn6ddTRVpQAAA",
+      "bytes": 63618,
+      "original": 0,
+      "name": "zheng-geping"
+    }
+  ],
+  "corporate": [
+    {
+      "src": "/images/corporate/allianz-1.webp",
+      "width": 996,
+      "height": 1494,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoIAAwABIByJZACdAEf/5UII8AA/slA+DKTv1BbVz8akTWH47p5iENx2TXH1DPCAnS9MWYR7QAAAA==",
+      "bytes": 66136,
+      "original": 0,
+      "name": "allianz-1"
+    },
+    {
+      "src": "/images/corporate/allianz-2.webp",
+      "width": 972,
+      "height": 1458,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoIAAwABIByJZQC7AD0XT5jqy8AAP64C2h4Tn2/DcjVeqFphk5KkdUyFyxu38mJiVl2CYaaEFfjErEMIAA=",
+      "bytes": 238642,
+      "original": 0,
+      "name": "allianz-2"
+    },
+    {
+      "src": "/images/corporate/allianz-3.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoIAAwABIByJQBOgMU83ulKQwAA/reM2TmHjigWanUBoRUkfb3FIH6BVr0m4DFdV6DypDd8ydhT0eXCK0Uo9VAAAAA=",
+      "bytes": 58362,
+      "original": 0,
+      "name": "allianz-3"
+    },
+    {
+      "src": "/images/corporate/allianz-4.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoIAAwABIByJZwAD4zQ3OyoPwSQAP7ii1Jvml9K1IpPWTkCtwIVOVMyx3PYuC9UF214hBM+iwhIIIgVa9Li0CXcAAA=",
+      "bytes": 56978,
+      "original": 0,
+      "name": "allianz-4"
+    },
+    {
+      "src": "/images/corporate/ms1-7626.webp",
+      "width": 1062,
+      "height": 1593,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoIAAwABIByJZQCw7D0XcHWQAAA/thP8TP24HJLmXh2A6MX5KhNHumRf3J1SmAREnjw82pWf8xdXd6KPz+kp8AA",
+      "bytes": 57884,
+      "original": 0,
+      "name": "ms1-7626"
+    },
+    {
+      "src": "/images/corporate/standard-chartered-1.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoIAAwABIByJYwC7ADcYrYEKUAA/pud2Ztyld3eJU5mkyodJBdMWMK+HrNT2PMJGF+qfWG4klQE66AA",
+      "bytes": 122006,
+      "original": 0,
+      "name": "standard-chartered-1"
+    },
+    {
+      "src": "/images/corporate/standard-chartered-2.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoIAAwABIByJYwCw7D0vB9fNKgAAP7V5Wh1/jVDxhja7uoqPsWWhJ0fZJufnZj4WpGiSxyO1L3VpbV1QAA=",
+      "bytes": 86884,
+      "original": 0,
+      "name": "standard-chartered-2"
+    },
+    {
+      "src": "/images/corporate/standard-chartered-3.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoIAAwABIByJZwAApoiCpQAAP63qEZT0OEba6R6mBb5t6kA55Hj+u8FBITux/1DIXuYAvJpAAA=",
+      "bytes": 75150,
+      "original": 0,
+      "name": "standard-chartered-3"
+    },
+    {
+      "src": "/images/corporate/standard-chartered-4.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoIAAwABIByJQBdgBrSloWQAAD+B4PRl1szmFr8dO+LWfInPQAgqAds9jP98FG8wMs3jO9jRs1ydhDttwAAAA==",
+      "bytes": 101904,
+      "original": 0,
+      "name": "standard-chartered-4"
+    },
+    {
+      "src": "/images/corporate/standard-chartered-5.webp",
+      "width": 1013,
+      "height": 1519,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoIAAwABIByJbACdAEW09wH9sIAAPz984NUZqkzh4nKkEumB3PAH6dxZHIVpGBI4nH6dQBCKcWHFW65cP/Evz6hwAA=",
+      "bytes": 108760,
+      "original": 0,
+      "name": "standard-chartered-5"
+    },
+    {
+      "src": "/images/corporate/standard-chartered-6.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoIAAwABIByJYwCdADzg1saPgAA/tWdicfrGa1mN+GXwuY1w0suQGN48ShSZWzzs66UhnR21r/GJ4AA",
+      "bytes": 211912,
+      "original": 0,
+      "name": "standard-chartered-6"
+    },
+    {
+      "src": "/images/corporate/storhub-1.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoIAAwABIByJYwC7ADdIoXdgAD+1iXHFg49Beyj1SuaXVSq4uuolH15NrnCKwQeAAA=",
+      "bytes": 173392,
+      "original": 0,
+      "name": "storhub-1"
+    },
+    {
+      "src": "/images/corporate/storhub-2.webp",
+      "width": 1075,
+      "height": 1612,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoIAAwABIByJQBOj+ADAx+lBMCAAP7uCFmPBdMEjQZQGiPIK38xo6g71+eJVuMmP9icu5DQAAA=",
+      "bytes": 72850,
+      "original": 0,
+      "name": "storhub-2"
+    },
+    {
+      "src": "/images/corporate/storhub-3.webp",
+      "width": 1101,
+      "height": 1651,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoIAAwABIByJZQAAu0anVTa+AAA/tUOqKWYJsuby18I09qT+B9H8ZpXLh4tCu+LNMi2psNkiQAAAA==",
+      "bytes": 63572,
+      "original": 0,
+      "name": "storhub-3"
+    }
+  ],
+  "events": [
+    {
+      "src": "/images/events/22nd-emirates-singapore-derby-1.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoMAAgABIByJYgC7AEOr27uAAD+7+Rh/Np5UWjz+RyDdQsfZbtxs+sAAAA=",
+      "bytes": 190768,
+      "original": 0,
+      "name": "22nd-emirates-singapore-derby-1"
+    },
+    {
+      "src": "/images/events/22nd-emirates-singapore-derby-3.webp",
+      "width": 1116,
+      "height": 1673,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoIAAwABIByJbACdAD5dNQAAP38DEBhNVocoZg8xJVSEcd5IkWtdVxTvXY6VvXBsiIMr6KtLcw7PtkFcKKKsAAA",
+      "bytes": 115242,
+      "original": 0,
+      "name": "22nd-emirates-singapore-derby-3"
+    },
+    {
+      "src": "/images/events/22nd-emirates-singapore-derby-5.webp",
+      "width": 1336,
+      "height": 892,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMAAgABIByJbAAAuc9XGg0sAAA/eOwjzGdPM8N0Tcch9S5OuS5ZTgLEym1pyffDXFpdJ4AAAA=",
+      "bytes": 221952,
+      "original": 0,
+      "name": "22nd-emirates-singapore-derby-5"
+    },
+    {
+      "src": "/images/events/22nd-emirates-singapore-derby-8.webp",
+      "width": 1425,
+      "height": 951,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoMAAgABIByJaAC7AEOkEgAAP7I/oEVmjp9Uq+9Hl5wvJi2echL0dHM0rIElpKa2AA=",
+      "bytes": 235718,
+      "original": 0,
+      "name": "22nd-emirates-singapore-derby-8"
+    },
+    {
+      "src": "/images/events/allianz-ap-summit-1.webp",
+      "width": 1461,
+      "height": 974,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAgABIByJbAAAsSNxFWUAAD+v7OpWNnMNB477bjZ28E4LTLolMEhglAS4+gjGz/zbnn9C+e3jjIQAAA=",
+      "bytes": 163302,
+      "original": 0,
+      "name": "allianz-ap-summit-1"
+    },
+    {
+      "src": "/images/events/allianz-ap-summit-2.webp",
+      "width": 1472,
+      "height": 982,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAgABIByJaAAAmfqD4CCAAD+5nu8WDe4d04vuQFT5+cipeXCg/rxViWRy/3f8QK/YaAA",
+      "bytes": 231008,
+      "original": 0,
+      "name": "allianz-ap-summit-2"
+    },
+    {
+      "src": "/images/events/chanel-tr-dinner-10.webp",
+      "width": 1970,
+      "height": 1313,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoMAAgABIByJZgCdADFFNkAAP5mU3dCn68DnFzbuo91eCRP0vPkiKSHAQtJR6lsFN8Lgy27dMIAAA==",
+      "bytes": 303512,
+      "original": 0,
+      "name": "chanel-tr-dinner-10"
+    },
+    {
+      "src": "/images/events/chanel-tr-dinner-211.webp",
+      "width": 2000,
+      "height": 1333,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAgABIByJYwCdAEPeh+1QAD+ZVxgBbwuI1TiP2bu6B533+WdDQVXeP8c/YvA8hrD1AAA",
+      "bytes": 223886,
+      "original": 0,
+      "name": "chanel-tr-dinner-211"
+    },
+    {
+      "src": "/images/events/chanel-tr-dinner-5.webp",
+      "width": 2000,
+      "height": 1333,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoMAAgABIByJYgCdAEDftXogYaAAPysjwlWXKI4l3b0ji32BOy4hdwdF718A+BL6TSaWejM4PmjzxPI8suTzXvqUAA=",
+      "bytes": 636952,
+      "original": 0,
+      "name": "chanel-tr-dinner-5"
+    },
+    {
+      "src": "/images/events/chopard-11.webp",
+      "width": 1542,
+      "height": 834,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoMAAcABIByJZACdAEQyK0YXGKAAPsFnehIfs4a9/bUtkFltX3rnjrGZ1Us1MUi4jXGs4CgSF9Q3agA",
+      "bytes": 239060,
+      "original": 0,
+      "name": "chopard-11"
+    },
+    {
+      "src": "/images/events/chopard-12.webp",
+      "width": 1628,
+      "height": 884,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoMAAcABIByJQBOgCFquPRZgADzy3LXoGBz5GpJr3yvk6bcWtEVW9BrzbzeJjyoOA+uqgMSyTZvb5e054AAAA==",
+      "bytes": 219556,
+      "original": 0,
+      "name": "chopard-12"
+    },
+    {
+      "src": "/images/events/chopard-7.webp",
+      "width": 1195,
+      "height": 1791,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoIAAwABIByJZQAD4rwyUFtqTgA/AI9bpQy3MjIIsSIgbd0F7VnmM8fqC+Q0QAykQi2h3q+wF2WOFxMWBAAAA==",
+      "bytes": 134774,
+      "original": 0,
+      "name": "chopard-7"
+    },
+    {
+      "src": "/images/events/chopard-8.webp",
+      "width": 1188,
+      "height": 1342,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoLAAwABIByJZQAAvozAf7AAAD9w/dg+sImT0isw03nK+HEDfBrF1HujPZGIlMeH/iJ1cYdO6zVAenrIGJpyosx6fspfPMmJb12m/sB02ABKAAA",
+      "bytes": 136220,
+      "original": 0,
+      "name": "chopard-8"
+    },
+    {
+      "src": "/images/events/citibank-balanced-being-retreat-116.webp",
+      "width": 2000,
+      "height": 1333,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoMAAgABIByJQBdgBssDzaAAP7mzb4g2x+oN0gQnYmP9Lqqs70I9pbecUCC46kOwS5l1kKq+41oLBPOGprgAA==",
+      "bytes": 162692,
+      "original": 0,
+      "name": "citibank-balanced-being-retreat-116"
+    },
+    {
+      "src": "/images/events/citibank-balanced-being-retreat-15.webp",
+      "width": 2000,
+      "height": 1333,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoMAAgABIByJYgCdADcoe2X7AAA/mp13a1KWFnplbwXRpESlr29iaxE3eGLTlrdC1AljL8ntZLSHY3gAAA=",
+      "bytes": 588128,
+      "original": 0,
+      "name": "citibank-balanced-being-retreat-15"
+    },
+    {
+      "src": "/images/events/citibank-balanced-being-retreat-235.webp",
+      "width": 1917,
+      "height": 1278,
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoMAAgABIByJQBOgB08Mg2HYAD+8EHwAmbiFRztFMLnM3QwXXFydbEyK1NO5z8wAAA=",
+      "bytes": 180672,
+      "original": 0,
+      "name": "citibank-balanced-being-retreat-235"
+    },
+    {
+      "src": "/images/events/dbs-private-bank-10.webp",
+      "width": 1228,
+      "height": 1840,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoIAAwABIByJbACdAEWYJOFbtIAAP7ATwtaMjaG1MfoQXgpuDSv8Ze7P4hP767pEaLvcTuJWzgfCx2ZGWSwS0H0ZrfQ344wAAA=",
+      "bytes": 195736,
+      "original": 0,
+      "name": "dbs-private-bank-10"
+    },
+    {
+      "src": "/images/events/dbs-private-bank-13.webp",
+      "width": 1228,
+      "height": 1840,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoIAAwABIByJagCdAD0cxXYnKgA/uoifmAvALeOB9qQQmCDveqzLpP3lSuJmSK8eWVxERP/UgAAAA==",
+      "bytes": 270308,
+      "original": 0,
+      "name": "dbs-private-bank-13"
+    },
+    {
+      "src": "/images/events/dbs-private-bank-4.webp",
+      "width": 1802,
+      "height": 1203,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoMAAgABIByJQBOgBszGBAAAP5BCBY3cdtNaajibWKvW7WifEwyarFhKkyR9S7MaetANNJGAuGAAA==",
+      "bytes": 679288,
+      "original": 0,
+      "name": "dbs-private-bank-4"
+    },
+    {
+      "src": "/images/events/expo-25th-anniversary-199r.webp",
+      "width": 1840,
+      "height": 1227,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAgABIByJbAAAp2X4lG4AAD6iLSW+qzC3gfRbHvzXI+z+Su200//jwt+5mlAMFVkAAAA",
+      "bytes": 110006,
+      "original": 0,
+      "name": "expo-25th-anniversary-199r"
+    },
+    {
+      "src": "/images/events/expo-25th-anniversary-313r.webp",
+      "width": 2000,
+      "height": 1333,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAgABIByJZQAAp0upwHMAAD+7NjRVtvZjgP4C7HFN0lcVPpnz6dgiGFjBA8kL8S90Z+AQYAAAA==",
+      "bytes": 141862,
+      "original": 0,
+      "name": "expo-25th-anniversary-313r"
+    },
+    {
+      "src": "/images/events/glenfiddich-13.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoMAAgABIByJQBdgMW+d+4wSAD2vSFoLbdl+uPBJHGfndTL2o3ymACtznh9DAvhL1oXg6j7+5iUIw8c+qGiycAAAAA=",
+      "bytes": 174504,
+      "original": 0,
+      "name": "glenfiddich-13"
+    },
+    {
+      "src": "/images/events/glenfiddich-16.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMAAgABIByJQBdgCBvyBaet4AA/nk8gsV8ZP68EIQir1N7k1Xw4S2KjzjaVUUkzzt0yJpAAAA=",
+      "bytes": 165880,
+      "original": 0,
+      "name": "glenfiddich-16"
+    },
+    {
+      "src": "/images/events/glenfiddich-17.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoMAAgABIByJQBWABtkKeJoAP0At2WdPk2XU0SQyx/DctJdZIqzeMVwEy24M5zUVyZNSSKddB3BwAAA",
+      "bytes": 224438,
+      "original": 0,
+      "name": "glenfiddich-17"
+    },
+    {
+      "src": "/images/events/glenfiddich-22.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAgABIByJbACdADZlwCWAAD1g5b0ClJ0gpZwgnQtqcUnIAbYGbTxZAWKL4cm+q4ufLHzoWtZNqhJ4AA=",
+      "bytes": 209268,
+      "original": 0,
+      "name": "glenfiddich-22"
+    },
+    {
+      "src": "/images/events/glenfiddich-23.webp",
+      "width": 1228,
+      "height": 1840,
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAgCdASoIAAwABIByJZQC7AEf+8Pnu4AAAP70Uy7VHp3+hW2R0ItwzsUKeL7uhdDGrYAA",
+      "bytes": 105160,
+      "original": 0,
+      "name": "glenfiddich-23"
+    },
+    {
+      "src": "/images/events/hsbc-jade-cny-2022-2.webp",
+      "width": 1472,
+      "height": 982,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoMAAgABIByJZAAAl2nlypsAP3FgE4zT+sHUbzqtR/GU/cls2xgfLNVtNc3XSyAvnGRzW0wSM8KAsUC//KyHQTYoAA=",
+      "bytes": 248502,
+      "original": 0,
+      "name": "hsbc-jade-cny-2022-2"
+    },
+    {
+      "src": "/images/events/hsbc-jade-q2-market-outlook-2017-13.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoMAAgABIByJYwCw7EVwqI2hsAA/XjV7EzAfXgGTQgHGXl7cZWNqm5TZGu9Wwoqyy0jeDPlo2vxVAAA",
+      "bytes": 72646,
+      "original": 0,
+      "name": "hsbc-jade-q2-market-outlook-2017-13"
+    },
+    {
+      "src": "/images/events/hsbc-jade-q2-market-outlook-2017-2.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoMAAgABIByJQBYdiPqMojlgAD+2iv+lSyJgR99TgzG3a4vpxGuj4/IcGUxleiJdtZqa2hAAAA=",
+      "bytes": 126864,
+      "original": 0,
+      "name": "hsbc-jade-q2-market-outlook-2017-2"
+    },
+    {
+      "src": "/images/events/hsbc-jade-q2-market-outlook-2017-3.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAgABIByJYgC7ACpjO8HMAD+hs8Wa1GOSJWGew7Tbqq4hiLuio0MTbwkiFkcY+peM4AA",
+      "bytes": 178496,
+      "original": 0,
+      "name": "hsbc-jade-q2-market-outlook-2017-3"
+    },
+    {
+      "src": "/images/events/hsbc-jade-the-human-library-18.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAgABIByJbACdAEPD28ivAAA/sHSU8xN/Hx2Vd1eHYI42yYE5sDG0jq57Y45dvAkDCvPXqQFqN+KW10n6qio2kwAAA==",
+      "bytes": 232842,
+      "original": 0,
+      "name": "hsbc-jade-the-human-library-18"
+    },
+    {
+      "src": "/images/events/hsbc-jade-the-human-library-7.webp",
+      "width": 1228,
+      "height": 1840,
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoIAAwABIByJZwAAsf1kMMAAP7CSDdgt0F5ltxd2zLX8GfcsnYD4fmw3AyAcAAA",
+      "bytes": 261242,
+      "original": 0,
+      "name": "hsbc-jade-the-human-library-7"
+    },
+    {
+      "src": "/images/events/hugo-boss-x-porsche-the-drive-event-12.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMAAgABIByJagAAxU/sjeiKgAA+OXHmuXiTfI1afg9MXhemMZgDmvpHtsPNhhp/otIpYYAAAA=",
+      "bytes": 388862,
+      "original": 0,
+      "name": "hugo-boss-x-porsche-the-drive-event-12"
+    },
+    {
+      "src": "/images/events/isca-run-1.webp",
+      "width": 1651,
+      "height": 1101,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAgABIByJQBOgCFrjoG9aAD4/ca49xjRGarS1WwMBIfgODbwzBYZP/sUnqHisMWkiTsojVFwAAAA",
+      "bytes": 309398,
+      "original": 0,
+      "name": "isca-run-1"
+    },
+    {
+      "src": "/images/events/isca-run-2.webp",
+      "width": 1534,
+      "height": 1023,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAgABIByJbACdAEU14ixqIAA/ut0vHob/l2x5KCwXhojg9FBjTic95Ms4kObXS0xrtv3IQ2FPF8/CgsAAA==",
+      "bytes": 198510,
+      "original": 0,
+      "name": "isca-run-2"
+    },
+    {
+      "src": "/images/events/johnny-walker-109.webp",
+      "width": 2000,
+      "height": 1333,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAgABIByJbACdADcYc1ipgAA/oOwwOEpDd++xXuW9fDjSgzCwTeP2/5Phv+uWlO7o8Yhby2OdYFc8wigAA==",
+      "bytes": 146962,
+      "original": 0,
+      "name": "johnny-walker-109"
+    },
+    {
+      "src": "/images/events/johnny-walker-149.webp",
+      "width": 1333,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoIAAwABIByJbACdADz226Q8AAA/r+4/yrQFgqAJMSwr1yECk8S2f3BsXXKcBsGAp/vMQb+Yit85ivETGad80AA",
+      "bytes": 176300,
+      "original": 0,
+      "name": "johnny-walker-149"
+    },
+    {
+      "src": "/images/events/johnny-walker-200.webp",
+      "width": 1333,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoIAAwABIByJbACdADdpsUVIkAA/qJjteufVKfJtJ6k213WvcaccPguV3YtJwm2j9/XXhfi/ibiXhEJ3l/Ov07U1YAAAA==",
+      "bytes": 135570,
+      "original": 0,
+      "name": "johnny-walker-200"
+    },
+    {
+      "src": "/images/events/johnny-walker-236.webp",
+      "width": 1321,
+      "height": 1042,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoMAAkABIByJbACdADc/k7QAP7mxSTjCZ/O6DjC5AtpnDLkfKDemxgox4dT9w+fjZPI8RzStZmwqGkWxgAAAA==",
+      "bytes": 65536,
+      "original": 0,
+      "name": "johnny-walker-236"
+    },
+    {
+      "src": "/images/events/mastercard-122.webp",
+      "width": 2000,
+      "height": 1333,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAgABIByJagCw7D0SRktAAD+rSZ6evnXRnXqyfrCXzLFSX3GWHKBhwb61cfmocZ7V1vSo2XPDAAA",
+      "bytes": 303586,
+      "original": 0,
+      "name": "mastercard-122"
+    },
+    {
+      "src": "/images/events/mastercard-142.webp",
+      "width": 1943,
+      "height": 1295,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoMAAgABIByJbACdADp2EJZmAD9Uy5XbaNm9arwY6RXgP2Ongeu26TGoSgeMMPUGV8EINz4Iwpz60oB8EXWGWI79AAAAA==",
+      "bytes": 242858,
+      "original": 0,
+      "name": "mastercard-142"
+    },
+    {
+      "src": "/images/events/mastercard-153.webp",
+      "width": 1931,
+      "height": 1288,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoMAAgABIByJaAC7ACRcEqAAPu1OZDhWNHksBXFaV1y5nLfOquiGnfArUnHvgiUUjcWypUsFGIGagAA",
+      "bytes": 306318,
+      "original": 0,
+      "name": "mastercard-153"
+    },
+    {
+      "src": "/images/events/nkf-gala-dinner-1.webp",
+      "width": 1651,
+      "height": 1101,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoMAAgABIByJYgCdIExGEndPBEdgAD+wj+7pE0lB3o6OZTcbskDk4oiiBxX095N86JpfO3pxgVexyvhaiQAAA==",
+      "bytes": 283816,
+      "original": 0,
+      "name": "nkf-gala-dinner-1"
+    },
+    {
+      "src": "/images/events/omega-seamaster-25th-anniversary-4.webp",
+      "width": 1228,
+      "height": 1840,
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoIAAwABIByJQBOgB5scJUAAPuS1HeWlDMr7oI2cX5+94oyJZI2zfi1xQ/W4KU8p/AAAA==",
+      "bytes": 207688,
+      "original": 0,
+      "name": "omega-seamaster-25th-anniversary-4"
+    },
+    {
+      "src": "/images/events/omega-seamaster-25th-anniversary-5.webp",
+      "width": 1228,
+      "height": 1840,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoIAAwABIByJZwAAuaatqAAAP7c++zl2M/YQ0yIExyZESFIzf71095RAAA=",
+      "bytes": 234134,
+      "original": 0,
+      "name": "omega-seamaster-25th-anniversary-5"
+    },
+    {
+      "src": "/images/events/omega-seamaster-25th-anniversary-6.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoMAAgABIByJQBOgCHgJSBVgAD+6dGvYlgYCGQju9L4z8fP9gAAAA==",
+      "bytes": 79910,
+      "original": 0,
+      "name": "omega-seamaster-25th-anniversary-6"
+    },
+    {
+      "src": "/images/events/omega-seamaster-25th-anniversary-7.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoMAAgABIByJZACsADcWCINSwAA/vLdC3Q3jpC8yFaGAsqNBGqSnYg8hSXvVOeVaNpAgAAA",
+      "bytes": 166060,
+      "original": 0,
+      "name": "omega-seamaster-25th-anniversary-7"
+    },
+    {
+      "src": "/images/events/omega-seamaster-25th-anniversary-9.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoMAAgABIByJZQAAup6VIWdgAD+hecV0HVgQfhRzR3OCrGDq7m0ssO4Zk5CXgAA",
+      "bytes": 166456,
+      "original": 0,
+      "name": "omega-seamaster-25th-anniversary-9"
+    },
+    {
+      "src": "/images/events/omega-speedmaster-50th-anniversary-13.webp",
+      "width": 1840,
+      "height": 1228,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoMAAgABIByJbACdAEDczXpPIAA/qwr/rHN8b+byQPCgXXkWFt+5CK4r+cAyTTQ8RCBfXWuVuw4Qs4A",
+      "bytes": 316446,
+      "original": 0,
+      "name": "omega-speedmaster-50th-anniversary-13"
+    },
+    {
+      "src": "/images/events/omega-speedmaster-50th-anniversary-14.webp",
+      "width": 1228,
+      "height": 1840,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoIAAwABIByJbACdAEOeFVJgAD45ORuiavcO22ZYccBU0j+JA37JE5dZ8DEOsahFEC5N9sV0PGEnAAA",
+      "bytes": 322900,
+      "original": 0,
+      "name": "omega-speedmaster-50th-anniversary-14"
+    },
+    {
+      "src": "/images/events/tiktok-summit-1.webp",
+      "width": 1472,
+      "height": 982,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoMAAgABIByJbACdEf/gcFR03z6QAD+zcc0lxGZNW1+LJIQnfMaRB2WkHixiP3JpGEFPUqQsycR7zuio+AgwAAA",
+      "bytes": 201042,
+      "original": 0,
+      "name": "tiktok-summit-1"
+    },
+    {
+      "src": "/images/events/uob-investment-forum-1.webp",
+      "width": 1651,
+      "height": 1101,
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAgABIByJbACdADbVHDdMAD1LoMrgpR8JD8NWDBiORmzcIGgSA6XhbUoV4RSzeTvoAAA",
+      "bytes": 321976,
+      "original": 0,
+      "name": "uob-investment-forum-1"
+    }
+  ],
+  "home": [
+    {
+      "src": "/images/home/home-ads-publications.webp",
+      "width": 1211,
+      "height": 1211,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoMAAwABIByJbACw7D0E6FlYAAA/rCxPJR+pPQbEqJQSELjeW0yJ2KVjW455BonV9vM+l/mnAAAAA==",
+      "bytes": 57376,
+      "original": 0,
+      "name": "home-ads-publications"
+    },
+    {
+      "src": "/images/home/home-event-photography.webp",
+      "width": 1211,
+      "height": 1211,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAwABIByJbACdADyn4rwAAD+zXPmXs8axhP+DRwHDQjUcMPBI6u4srSIfV/8cDj8vq9/ZHgAAA==",
+      "bytes": 83244,
+      "original": 0,
+      "name": "home-event-photography"
+    },
+    {
+      "src": "/images/home/homepage-corporate-shoot.webp",
+      "width": 1211,
+      "height": 1211,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoMAAwABIByJZwAAu16PAOlvAD+7/pPzjop/NwThK/5Y6wGuBn2Ry2119o8epUiFL01Mk5eEF/470GdIeKGQQAA",
+      "bytes": 39020,
+      "original": 0,
+      "name": "homepage-corporate-shoot"
+    },
+    {
+      "src": "/images/home/homepage-product.webp",
+      "width": 1211,
+      "height": 1211,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoMAAwABIByJYgCw7EXZvbiZs6AAP7zdynsTeFvlO6dqbDO1MJ9j1iUQCB1xn00RRgRDZG3gAA=",
+      "bytes": 81974,
+      "original": 0,
+      "name": "homepage-product"
+    }
+  ],
+  "logos": [
+    {
+      "src": "/images/logos/3-angles.webp",
+      "width": 320,
+      "height": 69,
+      "bytes": 14260,
+      "name": "3-angles"
+    },
+    {
+      "src": "/images/logos/amped-asia.webp",
+      "width": 320,
+      "height": 87,
+      "bytes": 15194,
+      "name": "amped-asia"
+    },
+    {
+      "src": "/images/logos/anticimex.webp",
+      "width": 320,
+      "height": 49,
+      "bytes": 12530,
+      "name": "anticimex"
+    },
+    {
+      "src": "/images/logos/beauty-cleanse.webp",
+      "width": 239,
+      "height": 88,
+      "bytes": 3746,
+      "name": "beauty-cleanse"
+    },
+    {
+      "src": "/images/logos/bienen-baron.webp",
+      "width": 108,
+      "height": 120,
+      "bytes": 8264,
+      "name": "bienen-baron"
+    },
+    {
+      "src": "/images/logos/bigfoot-entertainment.webp",
+      "width": 286,
+      "height": 120,
+      "bytes": 16340,
+      "name": "bigfoot-entertainment"
+    },
+    {
+      "src": "/images/logos/carlingual.webp",
+      "width": 293,
+      "height": 71,
+      "bytes": 8394,
+      "name": "carlingual"
+    },
+    {
+      "src": "/images/logos/catalunya.webp",
+      "width": 200,
+      "height": 78,
+      "bytes": 3650,
+      "name": "catalunya"
+    },
+    {
+      "src": "/images/logos/celevenus.webp",
+      "width": 170,
+      "height": 120,
+      "bytes": 10484,
+      "name": "celevenus"
+    },
+    {
+      "src": "/images/logos/chanel.webp",
+      "width": 187,
+      "height": 120,
+      "bytes": 7736,
+      "name": "chanel"
+    },
+    {
+      "src": "/images/logos/connect-group.webp",
+      "width": 191,
+      "height": 77,
+      "bytes": 2180,
+      "name": "connect-group"
+    },
+    {
+      "src": "/images/logos/coral-secret.webp",
+      "width": 320,
+      "height": 76,
+      "bytes": 11842,
+      "name": "coral-secret"
+    },
+    {
+      "src": "/images/logos/crestar.webp",
+      "width": 320,
+      "height": 81,
+      "bytes": 8818,
+      "name": "crestar"
+    },
+    {
+      "src": "/images/logos/dbs.webp",
+      "width": 320,
+      "height": 94,
+      "bytes": 9830,
+      "name": "dbs"
+    },
+    {
+      "src": "/images/logos/decks-and-scooters.webp",
+      "width": 320,
+      "height": 89,
+      "bytes": 10146,
+      "name": "decks-and-scooters"
+    },
+    {
+      "src": "/images/logos/falcon-pev.webp",
+      "width": 274,
+      "height": 120,
+      "bytes": 12140,
+      "name": "falcon-pev"
+    },
+    {
+      "src": "/images/logos/fashion-one.webp",
+      "width": 174,
+      "height": 120,
+      "bytes": 8986,
+      "name": "fashion-one"
+    },
+    {
+      "src": "/images/logos/gnome-and-bow.webp",
+      "width": 320,
+      "height": 60,
+      "bytes": 7678,
+      "name": "gnome-and-bow"
+    },
+    {
+      "src": "/images/logos/goldkili.webp",
+      "width": 320,
+      "height": 106,
+      "bytes": 10248,
+      "name": "goldkili"
+    },
+    {
+      "src": "/images/logos/got-ideas-group.webp",
+      "width": 213,
+      "height": 120,
+      "bytes": 14424,
+      "name": "got-ideas-group"
+    },
+    {
+      "src": "/images/logos/hpb.webp",
+      "width": 229,
+      "height": 120,
+      "bytes": 18552,
+      "name": "hpb"
+    },
+    {
+      "src": "/images/logos/hsbc.webp",
+      "width": 320,
+      "height": 56,
+      "bytes": 7622,
+      "name": "hsbc"
+    },
+    {
+      "src": "/images/logos/ibis-hotel.webp",
+      "width": 95,
+      "height": 120,
+      "bytes": 6900,
+      "name": "ibis-hotel"
+    },
+    {
+      "src": "/images/logos/iki.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 3218,
+      "name": "iki"
+    },
+    {
+      "src": "/images/logos/insurgence.webp",
+      "width": 218,
+      "height": 69,
+      "bytes": 4462,
+      "name": "insurgence"
+    },
+    {
+      "src": "/images/logos/isentia.webp",
+      "width": 320,
+      "height": 90,
+      "bytes": 17606,
+      "name": "isentia"
+    },
+    {
+      "src": "/images/logos/jet-aviation.webp",
+      "width": 320,
+      "height": 31,
+      "bytes": 5042,
+      "name": "jet-aviation"
+    },
+    {
+      "src": "/images/logos/land-rover.webp",
+      "width": 229,
+      "height": 120,
+      "bytes": 19520,
+      "name": "land-rover"
+    },
+    {
+      "src": "/images/logos/millies.webp",
+      "width": 320,
+      "height": 80,
+      "bytes": 9306,
+      "name": "millies"
+    },
+    {
+      "src": "/images/logos/nakd.webp",
+      "width": 117,
+      "height": 120,
+      "bytes": 5784,
+      "name": "nakd"
+    },
+    {
+      "src": "/images/logos/ne-cdc.webp",
+      "width": 149,
+      "height": 120,
+      "bytes": 11642,
+      "name": "ne-cdc"
+    },
+    {
+      "src": "/images/logos/nintendo.webp",
+      "width": 320,
+      "height": 79,
+      "bytes": 6674,
+      "name": "nintendo"
+    },
+    {
+      "src": "/images/logos/nkf.webp",
+      "width": 214,
+      "height": 110,
+      "bytes": 10706,
+      "name": "nkf"
+    },
+    {
+      "src": "/images/logos/ntuc.webp",
+      "width": 274,
+      "height": 120,
+      "bytes": 11770,
+      "name": "ntuc"
+    },
+    {
+      "src": "/images/logos/ogawa.webp",
+      "width": 320,
+      "height": 113,
+      "bytes": 9718,
+      "name": "ogawa"
+    },
+    {
+      "src": "/images/logos/old-chang-kee.webp",
+      "width": 185,
+      "height": 120,
+      "bytes": 16840,
+      "name": "old-chang-kee"
+    },
+    {
+      "src": "/images/logos/one-degree-15.webp",
+      "width": 320,
+      "height": 114,
+      "bytes": 17994,
+      "name": "one-degree-15"
+    },
+    {
+      "src": "/images/logos/paym.webp",
+      "width": 207,
+      "height": 120,
+      "bytes": 9204,
+      "name": "paym"
+    },
+    {
+      "src": "/images/logos/pcf-sparkletots.webp",
+      "width": 208,
+      "height": 120,
+      "bytes": 21498,
+      "name": "pcf-sparkletots"
+    },
+    {
+      "src": "/images/logos/peoples-association.webp",
+      "width": 101,
+      "height": 120,
+      "bytes": 7920,
+      "name": "peoples-association"
+    },
+    {
+      "src": "/images/logos/pioneer-dj.webp",
+      "width": 320,
+      "height": 45,
+      "bytes": 6702,
+      "name": "pioneer-dj"
+    },
+    {
+      "src": "/images/logos/quintessentially.webp",
+      "width": 241,
+      "height": 120,
+      "bytes": 7118,
+      "name": "quintessentially"
+    },
+    {
+      "src": "/images/logos/rbw-advertising.webp",
+      "width": 272,
+      "height": 108,
+      "bytes": 11144,
+      "name": "rbw-advertising"
+    },
+    {
+      "src": "/images/logos/rohde-schwarz.webp",
+      "width": 320,
+      "height": 65,
+      "bytes": 7740,
+      "name": "rohde-schwarz"
+    },
+    {
+      "src": "/images/logos/royal-caribbean.webp",
+      "width": 320,
+      "height": 78,
+      "bytes": 9306,
+      "name": "royal-caribbean"
+    },
+    {
+      "src": "/images/logos/rubicon.webp",
+      "width": 189,
+      "height": 52,
+      "bytes": 3430,
+      "name": "rubicon"
+    },
+    {
+      "src": "/images/logos/sentosa.webp",
+      "width": 320,
+      "height": 82,
+      "bytes": 16192,
+      "name": "sentosa"
+    },
+    {
+      "src": "/images/logos/sexymandarin.webp",
+      "width": 320,
+      "height": 46,
+      "bytes": 13834,
+      "name": "sexymandarin"
+    },
+    {
+      "src": "/images/logos/smu.webp",
+      "width": 305,
+      "height": 120,
+      "bytes": 12174,
+      "name": "smu"
+    },
+    {
+      "src": "/images/logos/temasek-foundation-connects.webp",
+      "width": 291,
+      "height": 120,
+      "bytes": 15838,
+      "name": "temasek-foundation-connects"
+    },
+    {
+      "src": "/images/logos/thk.webp",
+      "width": 123,
+      "height": 120,
+      "bytes": 11554,
+      "name": "thk"
+    },
+    {
+      "src": "/images/logos/tyrequeen.webp",
+      "width": 320,
+      "height": 97,
+      "bytes": 11348,
+      "name": "tyrequeen"
+    },
+    {
+      "src": "/images/logos/upgrad.webp",
+      "width": 320,
+      "height": 70,
+      "bytes": 8166,
+      "name": "upgrad"
+    },
+    {
+      "src": "/images/logos/vintage-studio.webp",
+      "width": 181,
+      "height": 120,
+      "bytes": 13750,
+      "name": "vintage-studio"
+    },
+    {
+      "src": "/images/logos/ya-hua.webp",
+      "width": 113,
+      "height": 120,
+      "bytes": 6384,
+      "name": "ya-hua"
+    }
+  ],
+  "products": [
+    {
+      "src": "/images/products/beinen-baron.webp",
+      "width": 1224,
+      "height": 612,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAYABIByJagCdADbMCegYAD9TzSYDi8qYVh3Lgtfql5ovddZIXl6Q09DxappjydWJgJ0bmEGmYAA",
+      "bytes": 156924,
+      "original": 0,
+      "name": "beinen-baron"
+    },
+    {
+      "src": "/images/products/coral-secret-hat1.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAwABIByJZQC7AD7FfckIAD+8jR8ifITWOV48e/u3IXTMY4RjQV1gFEPNRiF2XJeExjQZQAAAA==",
+      "bytes": 45470,
+      "original": 0,
+      "name": "coral-secret-hat1"
+    },
+    {
+      "src": "/images/products/coral-secret-hat2.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoMAAwABIByJYwAArCuK9yCoAAA/vI0eyvnEPoxctieFA7USlFsOlX2a+XzZswlUAYnvU7MboZfvfwAAAA=",
+      "bytes": 40248,
+      "original": 0,
+      "name": "coral-secret-hat2"
+    },
+    {
+      "src": "/images/products/coral-secret-hat3.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAwABIByJZwAAlw3bHxIAAD+88LxFCvZZcf45AjYpF2ySfGWaaIbJNdkqqrblhFEPvhDfuA4AA==",
+      "bytes": 37002,
+      "original": 0,
+      "name": "coral-secret-hat3"
+    },
+    {
+      "src": "/images/products/coral-secret-slipper.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoMAAwABIByJaQAAuZc/9QAAP7zbd92oBgJKgvSQM2gMNi9aT1YHfP4AAA=",
+      "bytes": 11786,
+      "original": 0,
+      "name": "coral-secret-slipper"
+    },
+    {
+      "src": "/images/products/dsc-0431.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoMAAwABIByJbACdAEPAQXGUAAA/u3qKb+hOPF5iDFq2xhqqj65ZO6+rfzUNuennkY+K0Zap6OupE1SzIGIihqLQHklax6rffFsOPqJF7yyYWbbAL/qbPmpqAA=",
+      "bytes": 21762,
+      "original": 0,
+      "name": "dsc-0431"
+    },
+    {
+      "src": "/images/products/fp-7th-month-e-catalogue-1.webp",
+      "width": 1414,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoIAAwABIByJbACdAEOYVCAAP7IdO0w1BibsWCbjbiGMKGEEQIBHY3EF87MjG8NnSGmHTDGVbgEDcGUr8Bo4/6AAAA=",
+      "bytes": 316354,
+      "original": 0,
+      "name": "fp-7th-month-e-catalogue-1"
+    },
+    {
+      "src": "/images/products/fp-7th-month-e-catalogue-2.webp",
+      "width": 1414,
+      "height": 2000,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoIAAwABIByJZgCdAEOeGU8wAD+yHTtIcU98jF7zcCL0LhsogRBeMPgaRsMw7c08v8GNZrGUQbCkIOwAAA=",
+      "bytes": 369912,
+      "original": 0,
+      "name": "fp-7th-month-e-catalogue-2"
+    },
+    {
+      "src": "/images/products/hais-curry-chicken-sauce-kit.webp",
+      "width": 1472,
+      "height": 982,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoMAAgABIByJZgCdIExF8fzuDSAAP7rr1LSetEqwVnSZTEj6qVQzCAJhVDZd4bQKtupDfa2QCiFNy4xIfHEYAAA",
+      "bytes": 197994,
+      "original": 0,
+      "name": "hais-curry-chicken-sauce-kit"
+    },
+    {
+      "src": "/images/products/hais-prawn-noodles-sauce-kit.webp",
+      "width": 1354,
+      "height": 982,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoMAAkABIByJaACdADdi6PUYAD+6pWiscmP0Br0bdDTDkWABMv3iJ+X2W2qjsbvtDHRFVZAAAA=",
+      "bytes": 196392,
+      "original": 0,
+      "name": "hais-prawn-noodles-sauce-kit"
+    },
+    {
+      "src": "/images/products/hais-sambal-chilli.webp",
+      "width": 1092,
+      "height": 1092,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoMAAwABIByJbACdAYuHOGNbS3OAAD+r2vzVwz+fr1Y/OUk57FeR/A3nhjQanBMjxM+Sb/yreo7Lk3ZesPLgnLgv1ABRycxtrm8HK7VlqIb8AAA",
+      "bytes": 182502,
+      "original": 0,
+      "name": "hais-sambal-chilli"
+    },
+    {
+      "src": "/images/products/hais-sauce-kits.webp",
+      "width": 1251,
+      "height": 600,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAYABIByJbACdAD0WlkOwAD+siEUd3QkvB9vU1qweVNkbQiiXCvA0Zt8e8pzo4wmknQ2UGQJeXE8AAA=",
+      "bytes": 139606,
+      "original": 0,
+      "name": "hais-sauce-kits"
+    },
+    {
+      "src": "/images/products/hais-xo-sambal-chilli.webp",
+      "width": 1165,
+      "height": 1165,
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoMAAwABIByJbACdADxAZPU5rgA/lM8x/elVXvyV6SlSQ3O0h5HFdsRUmXx71fkIBzWieRJfq4kBRFldoGMCH9Q4V0l0uQ3dJ+tMWAAAAA=",
+      "bytes": 163088,
+      "original": 0,
+      "name": "hais-xo-sambal-chilli"
+    },
+    {
+      "src": "/images/products/iki-bags.webp",
+      "width": 1534,
+      "height": 1332,
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoMAAoABIByJZgC7AD0Xy/KOryQAAD+2CM51rLvk2n4lez+m3Ldi1OwqIydnqjDl/XoL4YLPf14jwO1S7NgoA9jihH41dciRj1NAMW0qwtQnkRZLKAAAA==",
+      "bytes": 185622,
+      "original": 0,
+      "name": "iki-bags"
+    },
+    {
+      "src": "/images/products/iki-bracelets.webp",
+      "width": 1225,
+      "height": 1225,
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMAAwABIByJZQAAqH+rMPhgAD+8jVXlrtdxPH/iffWD/5tJYXDY/4021VEdlp5a8rjM4xffsdmBKcitTNn8Rke38oRhwgoAAA=",
+      "bytes": 89256,
+      "original": 0,
+      "name": "iki-bracelets"
+    },
+    {
+      "src": "/images/products/old-seng-choon-coconut-pandan.webp",
+      "width": 1414,
+      "height": 944,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAgABIByJbAC7ADaQFW9AADOJBW2LLlbQMjjA59+qwxb3psmE4q9H1HZ9goPmUo1loufr7JHTY60AAA=",
+      "bytes": 209670,
+      "original": 0,
+      "name": "old-seng-choon-coconut-pandan"
+    },
+    {
+      "src": "/images/products/old-seng-choon-goreng-pisang.webp",
+      "width": 1409,
+      "height": 940,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoMAAgABIByJbACdADdZrTOCwAA/uuOuxzLVQHCkNE13jdL+o7VUMJ9lvE8spbhnb7f2R5BelG4/X+zgAA=",
+      "bytes": 169458,
+      "original": 0,
+      "name": "old-seng-choon-goreng-pisang"
+    },
+    {
+      "src": "/images/products/old-seng-choon-group.webp",
+      "width": 1472,
+      "height": 982,
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoMAAgABIByJZgCdADdkHrzeAAA/ra12Y/c2nHSdXAeC1mKNNpnWdZN1APfMdiVgl5dSKdvlAZ+FcsSi7SXAAAA",
+      "bytes": 242958,
+      "original": 0,
+      "name": "old-seng-choon-group"
+    },
+    {
+      "src": "/images/products/old-seng-choon-satay.webp",
+      "width": 894,
+      "height": 894,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoMAAwABIByJbACdADdKD1lXmFgAN9NIfY6Pc4n/wqy+YO5rKDxosOkP+1jgEDldLhOOkRkBVdg5EB/r1pbztAtKAvSp7oIHUJAAA==",
+      "bytes": 196510,
+      "original": 0,
+      "name": "old-seng-choon-satay"
+    },
+    {
+      "src": "/images/products/product-falcon-mobility-1.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoMAAwABIByJZQAD4owMymEnZrkAAD+15zzRdscRrhdNZ2lUT9CvGV7USjyYtUiEe2fawhd1v/acHSLaE2zIhN/qAfK5SVBMbyVCjq4cWLIRNkAAAA=",
+      "bytes": 35566,
+      "original": 0,
+      "name": "product-falcon-mobility-1"
+    },
+    {
+      "src": "/images/products/product-falcon-mobility-2.webp",
+      "width": 728,
+      "height": 728,
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAQCdASoMAAwABIByJQAATP0xjjQAAP7JhP1Bvr5pSLuNVXBsvAjItpoUN+AmNIKjEBSgHydUujU4gg9QNAu1l/rnVyPfkhHBqPj3UbT8DC8dPUl5/e3bjr0a+QLIAAA=",
+      "bytes": 42178,
+      "original": 0,
+      "name": "product-falcon-mobility-2"
+    },
+    {
+      "src": "/images/products/product-falcon-mobility-3.webp",
+      "width": 797,
+      "height": 797,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoMAAwABIByJaQAAsf4/9TbgsAA/re2J6rjdhzAuYrMTpLvUnbxaeuo1pFxOXB0jd7veTfuTri04NX5B7Di3snReqrFgleMBynRs4o3z8AAAA==",
+      "bytes": 45508,
+      "original": 0,
+      "name": "product-falcon-mobility-3"
+    },
+    {
+      "src": "/images/products/product-falcon-mobility-4.webp",
+      "width": 1104,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAgABIByJaQAAt1r1nJTAAD+nCQbmn/MjrTule9BH/wCdYFZ2OcjGEidsEsuMxhlxo5ErAAAAA==",
+      "bytes": 38036,
+      "original": 0,
+      "name": "product-falcon-mobility-4"
+    },
+    {
+      "src": "/images/products/product-falcon-pev-1.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoMAAwABIByJaQAAxf/Ih0AAP7yLutUScb2XZs6gtE+6LWaSjzUat7yddBwYCGDrtTtluUAAAA=",
+      "bytes": 18358,
+      "original": 0,
+      "name": "product-falcon-pev-1"
+    },
+    {
+      "src": "/images/products/product-falcon-pev-2.webp",
+      "width": 1036,
+      "height": 692,
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAgABIByJZwAAlxWTXu0AAD+64wG/U4D+SvdY7rpj7au/fi6l3NvbPxgB9EXHlwkXeTIOHm5t7S/oAA=",
+      "bytes": 57330,
+      "original": 0,
+      "name": "product-falcon-pev-2"
+    },
+    {
+      "src": "/images/products/product-falcon-pev-3.webp",
+      "width": 1104,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAAgABIByJaQAAvzhJrgGTgAA/uhp3tVOR64ufz11PKxzwpq2BA49K4Zz3292Xk+9+sg47yrSCuR9h+UAAA==",
+      "bytes": 54938,
+      "original": 0,
+      "name": "product-falcon-pev-3"
+    },
+    {
+      "src": "/images/products/product-falcon-pev-4.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoMAAwABIByJaQAAp1Tbj9EQAD+8moaMJzBoMYofqINg5vXlkuGX3hA16RbQSH6ghzajZsRPG2NIYAA",
+      "bytes": 20714,
+      "original": 0,
+      "name": "product-falcon-pev-4"
+    },
+    {
+      "src": "/images/products/product-falcon-pev-5.webp",
+      "width": 1073,
+      "height": 716,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoMAAgABIByJZwAD4TrcNkxsAD+6vOsVab8C4fro8YSr7E5xVr5r8kvl2+TUZaviCfbwF+ams0LgxTrPN4tgB+aAAA=",
+      "bytes": 52524,
+      "original": 0,
+      "name": "product-falcon-pev-5"
+    },
+    {
+      "src": "/images/products/product-falcon-pev-6.webp",
+      "width": 1104,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoMAAgABIByJYgAAtzoz7ExcAAA/k28n/v9kmsk1pVGydEqQYcbM3SPNlW3Dg4DLYmiAHtCcV22fND5a6oExs7AAAA=",
+      "bytes": 53796,
+      "original": 0,
+      "name": "product-falcon-pev-6"
+    },
+    {
+      "src": "/images/products/red-bull-plus.webp",
+      "width": 982,
+      "height": 1472,
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoIAAwABIByJYgCw7D0h7EgAAD+4oqmbDDpxXMNqPb1sS/5pF6wTFAxQDgK8T5CgzeSsvPL6NZFqwzFDqED9s1z0gAAAA==",
+      "bytes": 111446,
+      "original": 0,
+      "name": "red-bull-plus"
+    },
+    {
+      "src": "/images/products/richard-legrand-watch.webp",
+      "width": 1585,
+      "height": 1012,
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoMAAgABIByJaQAAn/XRoFAAP7wSiN/+X7NFzvCojek1O054IOEUEiMv29SL7HNw6bvcm8AAAA=",
+      "bytes": 63860,
+      "original": 0,
+      "name": "richard-legrand-watch"
+    },
+    {
+      "src": "/images/products/unity-bag.webp",
+      "width": 737,
+      "height": 737,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAgCdASoMAAwABIByJZACsAEfpzPdQTkmIAAA/vI4MuLf3EAaVN9r8DPagQCGTnDs9Xy2M4s1+0kU3x6PjOCGqf2YSTlLJrcfYqeSdwAAAA==",
+      "bytes": 73636,
+      "original": 0,
+      "name": "unity-bag"
+    },
+    {
+      "src": "/images/products/unity-unbrella-capsule.webp",
+      "width": 2000,
+      "height": 1335,
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoMAAgABIByJbACdAEUUw8anAAA/vI0eyRIopieED56Gdt3qVtZhAStYXTVyLPTBx1ncOofYRM6x/qiHpkhlPGngAA=",
+      "bytes": 64762,
+      "original": 0,
+      "name": "unity-unbrella-capsule"
+    }
+  ]
+}

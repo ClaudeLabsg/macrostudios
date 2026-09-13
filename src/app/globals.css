@@ -1,0 +1,111 @@
+@import 'tailwindcss';
+
+/*
+  Design system
+  -------------
+  The work is the interface. The shell is near-black with a warm off-white so
+  photographs never compete with the UI, and a single warm-sand accent is used
+  sparingly for eyebrow labels, rules and focus rings.
+*/
+@theme {
+  --color-ink: #0b0b0c; /* page background */
+  --color-ink-raised: #141416; /* cards, header on scroll */
+  --color-ink-line: #26262a; /* hairline borders */
+  --color-bone: #f5f3f0; /* primary text */
+  --color-bone-dim: #a39d97; /* secondary text */
+  --color-sand: #c8a97e; /* the one accent */
+
+  --font-display: var(--font-display), Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-ink);
+    /* Keeps the overscroll gutter dark instead of flashing white. */
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-bone);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-sand);
+    color: var(--color-ink);
+  }
+
+  /* A visible, on-brand focus ring — the default one disappears on a dark background. */
+  :focus-visible {
+    outline: 2px solid var(--color-sand);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Small caps label used above section headings. */
+  .eyebrow {
+    font-size: 0.6875rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-sand);
+  }
+
+  /* Underline that draws in from the left on hover. */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.4s var(--ease-out-soft);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+  }
+}
+
+/*
+  Scroll-reveal. Elements start slightly offset and settle once observed.
+  `.is-visible` is added by the Reveal component; without JS the
+  no-js fallback below keeps everything visible.
+*/
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.7s var(--ease-out-soft),
+    transform 0.7s var(--ease-out-soft);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
