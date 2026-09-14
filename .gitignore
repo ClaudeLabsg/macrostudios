@@ -32,6 +32,8 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# ...except the template, which carries no secrets and documents what must be set.
+!.env.example
 
 # vercel
 .vercel
@@ -42,7 +44,11 @@ next-env.d.ts
 
 # Scraped originals from the old WordPress site (~243 MB).
 # Kept locally so `npm run images` can be re-run; never committed.
-/scripts/raw/
+/scripts/raw/*
+# ...with one exception: the brand master. Every logo, icon and share card on the
+# site is derived from that single file by `npm run brand`, so unlike the scraped
+# photography it has to survive a fresh clone.
+!/scripts/raw/brand/
 
 # Build/verification artefacts
 /scripts/tmp/

@@ -30,7 +30,7 @@ export default function WorkPage() {
               <Reveal key={category.slug} delay={i * 70}>
                 <Link
                   href={`/work/${category.slug}`}
-                  className="group relative block overflow-hidden bg-ink-raised"
+                  className="on-media group relative block overflow-hidden bg-ink-raised"
                 >
                   <div className="relative aspect-[4/3]">
                     {cover && (
@@ -42,20 +42,27 @@ export default function WorkPage() {
                         sizes="(min-width: 640px) 50vw, 100vw"
                         placeholder={cover.blurDataURL ? 'blur' : 'empty'}
                         blurDataURL={cover.blurDataURL || undefined}
+                        style={{ objectPosition: category.coverPosition }}
                         className="object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
                       />
                     )}
+                    {/* Heavier on a phone; see the note on the home page cards. */}
                     <div
                       aria-hidden
-                      className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent"
+                      className="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-ink/10 sm:via-ink/30 sm:to-transparent"
                     />
                   </div>
                   <div className="absolute inset-x-0 bottom-0 p-7 lg:p-9">
-                    <div className="flex items-baseline justify-between gap-4">
+                    {/*
+                      Stacked on a phone. Side by side, a two-word title wraps and
+                      the count gets crushed against the right edge of the card
+                      ("Corporate Photography" / "14 images" was the worst of them).
+                    */}
+                    <div className="flex flex-col-reverse gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
                       <h2 className="font-display text-2xl text-bone lg:text-3xl">
                         {category.title}
                       </h2>
-                      <span className="shrink-0 text-xs text-bone-dim">
+                      <span className="shrink-0 text-xs text-bone sm:text-bone-dim">
                         {photoCount(category)} images
                       </span>
                     </div>

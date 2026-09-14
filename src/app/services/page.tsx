@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Reveal from '@/components/Reveal'
-import { services, contact, whatsappLink } from '@/data/site'
+import { services, categoryBySlug, contact } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: 'Services & Rates',
+  title: 'Services',
   description:
-    'Photography services and rates in Singapore — corporate events, executive portraits, product and advertising. What is included, and how booking works.',
+    'Photography services in Singapore — corporate events, executive portraits, product and advertising. What each shoot involves, what you get back, and how booking works.',
   alternates: { canonical: '/services' },
 }
 
@@ -15,12 +15,12 @@ const process = [
   {
     step: '01',
     title: 'Tell me the date',
-    body: 'Date, venue and roughly what you need the images for. A WhatsApp message is enough to check availability.',
+    body: 'Date, venue and roughly what you need the images for. A two-line email is enough to check availability.',
   },
   {
     step: '02',
-    title: 'Get a fixed quote',
-    body: 'A written quote with hours, deliverables and licence, usually the same working day. No hourly surprises afterwards.',
+    title: 'Agree the scope',
+    body: 'A written outline of hours, deliverables and licence, usually the same working day, so we both know what the shoot covers before anything is booked.',
   },
   {
     step: '03',
@@ -39,66 +39,81 @@ export default function ServicesPage() {
     <>
       <PageHeader
         eyebrow="Services"
-        title="What it costs, and what you get"
-        intro="Rates depend on hours, crew and how widely you licence the images — but you should not have to send an email to find that out. Indicative pricing is below."
+        title="What I shoot"
+        intro="Four kinds of commission, each a different sort of day on set. Here is what the work involves and what lands in your inbox afterwards."
       />
 
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
+        {/*
+          One hairline grid: the `gap-px` over an ink-line background draws the rules
+          between cells, so four equal squares read as a single block rather than four
+          floating cards. Four services fill it exactly — adding a fifth leaves a hole
+          in the bottom row, so give the odd one `md:col-span-2`.
+        */}
         <div className="grid gap-px bg-ink-line md:grid-cols-2">
-          {services.map((service, i) => (
-            <Reveal key={service.name} delay={i * 70} className="bg-ink p-8 lg:p-10">
-              <div className="flex items-baseline justify-between gap-4">
-                <h2 className="font-display text-2xl text-bone">{service.name}</h2>
-                <p className="shrink-0 text-right">
-                  <span className="block font-display text-2xl text-sand">
-                    {service.priceFrom === null
-                      ? 'On request'
-                      : `From $${service.priceFrom}`}
-                  </span>
-                  <span className="mt-1 block text-[0.7rem] text-bone-dim">
-                    {service.unit}
-                  </span>
+          {services.map((service, i) => {
+            const category = categoryBySlug(service.category)
+            return (
+              <Reveal
+                key={service.name}
+                as="article"
+                delay={i * 70}
+                className="flex flex-col bg-ink p-8 lg:p-10"
+              >
+                <h2 className="font-display text-2xl text-bone lg:text-[1.75rem]">
+                  {service.name}
+                </h2>
+                {/* Matches the .eyebrow step: 12px on a phone, 11.2px from sm up. */}
+                <p className="mt-2 text-[0.75rem] uppercase tracking-[0.14em] text-sand sm:text-[0.7rem]">
+                  {service.format}
                 </p>
-              </div>
 
-              <p className="mt-4 text-sm leading-relaxed text-bone-dim">
-                {service.description}
-              </p>
+                <p className="mt-4 text-sm leading-relaxed text-bone-dim">
+                  {service.description}
+                </p>
 
-              <ul className="mt-7 space-y-2.5">
-                {service.includes.map((item) => (
-                  <li
-                    key={item}
-                    className="flex gap-3 text-sm leading-relaxed text-bone-dim"
+                <ul className="mt-6 space-y-2.5">
+                  {service.includes.map((item) => (
+                    <li
+                      key={item}
+                      className="flex gap-3 text-sm leading-relaxed text-bone-dim"
+                    >
+                      <span
+                        aria-hidden
+                        className="mt-[0.45rem] h-px w-3 shrink-0 bg-sand"
+                      />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+
+                {category && (
+                  /* mt-auto pins this to the bottom, so the links line up across a row
+                     even when one card carries a longer description. */
+                  <Link
+                    href={`/work/${category.slug}`}
+                    className="tap-row link-underline mt-auto self-start pt-7 text-sm text-bone"
                   >
-                    <span aria-hidden className="mt-[0.45rem] h-px w-3 shrink-0 bg-sand" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </Reveal>
-          ))}
+                    See the {category.shortTitle.toLowerCase()} work
+                  </Link>
+                )}
+              </Reveal>
+            )
+          })}
         </div>
 
         <Reveal className="mt-10 border border-ink-line p-8 text-sm leading-relaxed text-bone-dim lg:p-10">
-          Every job is quoted in writing before anything is booked. If a package
-          above does not fit — a multi-day conference, a shoot outside Singapore,
-          an unusual licence — tell me what you need and I will price it.{' '}
-          <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-underline text-sand"
-          >
-            Ask on WhatsApp
+          Not every job fits a box. A multi-day conference, a shoot outside
+          Singapore, an unusual licence, or something that spans two of the four
+          above — tell me what you have in mind and I will put together a plan for
+          it.{' '}
+          <a href={`mailto:${contact.email}`} className="link-underline text-sand">
+            Email me
           </a>{' '}
           or{' '}
-          <a
-            href={`mailto:${contact.email}`}
-            className="link-underline text-sand"
-          >
-            email me
-          </a>
+          <Link href="/contact" className="link-underline text-sand">
+            send an enquiry
+          </Link>
           .
         </Reveal>
       </div>
@@ -132,7 +147,7 @@ export default function ServicesPage() {
               href="/contact"
               className="inline-block rounded-full bg-bone px-8 py-3.5 text-sm font-medium text-ink transition-colors duration-300 hover:bg-sand"
             >
-              Get a quote
+              Check a date
             </Link>
           </Reveal>
         </div>

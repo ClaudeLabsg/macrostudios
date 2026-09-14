@@ -1,0 +1,17 @@
+{
+  "mark": {
+    "src": "/images/brand/macrostudios-mark.webp",
+    "width": 284,
+    "height": 226
+  },
+  "wordmark": {
+    "src": "/images/brand/macrostudios-wordmark.webp",
+    "width": 444,
+    "height": 81
+  },
+  "logo": {
+    "src": "/images/brand/macrostudios-logo.webp",
+    "width": 444,
+    "height": 332
+  }
+}

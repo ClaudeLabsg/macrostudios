@@ -1,5 +1,7 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { site, contact, categories, nav } from '@/data/site'
+import brand from '@/data/brand.generated.json'
 
 export default function Footer() {
   return (
@@ -7,22 +9,27 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <p className="font-display text-3xl text-bone">{site.name}</p>
-            <p className="mt-1 text-[0.65rem] uppercase tracking-[0.28em] text-bone-dim">
-              {site.tagline}
-            </p>
-            <p className="mt-6 max-w-sm text-sm leading-relaxed text-bone-dim">
+            {/* Room to breathe down here, so the lockup runs stacked as drawn. */}
+            <Image
+              src={brand.logo.src}
+              alt={`${site.name} — ${site.tagline}`}
+              width={brand.logo.width}
+              height={brand.logo.height}
+              loading="lazy"
+              className="logo-mono h-24 w-auto"
+            />
+            <p className="mt-7 max-w-sm text-sm leading-relaxed text-bone-dim">
               {site.yearsExperience} years of corporate, event, product and
               advertising photography in Singapore.
             </p>
-            <div className="mt-6 flex gap-5">
+            <div className="mt-6 flex gap-8 sm:gap-5">
               {contact.socials.map((s) => (
                 <a
                   key={s.label}
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link-underline text-sm text-bone-dim hover:text-bone"
+                  className="tap-row link-underline text-sm text-bone-dim hover:text-bone"
                 >
                   {s.label}
                 </a>
@@ -32,12 +39,13 @@ export default function Footer() {
 
           <nav aria-label="Portfolio">
             <p className="eyebrow">Portfolio</p>
-            <ul className="mt-4 space-y-2.5">
+            {/* space-y on mobile is the 44px pitch `.tap-row` overlays need. */}
+            <ul className="mt-4 space-y-6 sm:space-y-2.5">
               {categories.map((c) => (
                 <li key={c.slug}>
                   <Link
                     href={`/work/${c.slug}`}
-                    className="link-underline text-sm text-bone-dim hover:text-bone"
+                    className="tap-row link-underline text-sm text-bone-dim hover:text-bone"
                   >
                     {c.title}
                   </Link>
@@ -49,12 +57,12 @@ export default function Footer() {
           <div>
             <nav aria-label="Footer">
               <p className="eyebrow">Studio</p>
-              <ul className="mt-4 space-y-2.5">
+              <ul className="mt-4 space-y-6 sm:space-y-2.5">
                 {nav.map((item) => (
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className="link-underline text-sm text-bone-dim hover:text-bone"
+                      className="tap-row link-underline text-sm text-bone-dim hover:text-bone"
                     >
                       {item.label}
                     </Link>
@@ -64,23 +72,16 @@ export default function Footer() {
             </nav>
 
             <p className="eyebrow mt-8">Contact</p>
-            <ul className="mt-4 space-y-2.5 text-sm text-bone-dim">
+            <ul className="mt-4 space-y-6 text-sm text-bone-dim sm:space-y-2.5">
               <li>
                 <a
                   href={`mailto:${contact.email}`}
-                  className="link-underline hover:text-bone"
+                  className="tap-row link-underline hover:text-bone"
                 >
                   {contact.email}
                 </a>
               </li>
-              <li>
-                <a
-                  href={`tel:${contact.phone.replace(/\s/g, '')}`}
-                  className="link-underline hover:text-bone"
-                >
-                  {contact.phone}
-                </a>
-              </li>
+              <li>{contact.hours}</li>
             </ul>
           </div>
         </div>

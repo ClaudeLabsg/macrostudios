@@ -2,17 +2,15 @@ import type { Metadata } from 'next'
 import ContactForm from '@/components/ContactForm'
 import PageHeader from '@/components/PageHeader'
 import Reveal from '@/components/Reveal'
-import { contact, whatsappLink, site } from '@/data/site'
+import { contact, site } from '@/data/site'
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: `Enquire about a photography shoot in Singapore. WhatsApp, call or email ${contact.email} — most enquiries answered ${contact.responseTime}.`,
+  description: `Enquire about a photography shoot in Singapore. Email ${contact.email} or use the enquiry form — most enquiries answered ${contact.responseTime}.`,
   alternates: { canonical: '/contact' },
 }
 
 export default function ContactPage() {
-  const phoneHref = `tel:${contact.phone.replace(/\s/g, '')}`
-
   return (
     <>
       <PageHeader
@@ -29,45 +27,13 @@ export default function ContactPage() {
 
           <Reveal delay={100} as="aside" className="space-y-10">
             {/*
-              Direct channels sit beside the form rather than below it.
-              In Singapore a WhatsApp message converts far better than a form,
-              and the previous site offered no messaging route at all.
+              Email is the only channel offered, deliberately - no number and no
+              WhatsApp anywhere on the site. Everything funnels to one inbox, so the
+              form and this card are the same route by two different doors.
             */}
             <div>
-              <p className="eyebrow">Faster than the form</p>
-              <div className="mt-5 space-y-3">
-                <a
-                  href={whatsappLink()}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between border border-ink-line px-6 py-5 transition-colors duration-300 hover:border-sand"
-                >
-                  <span>
-                    <span className="block text-bone">WhatsApp</span>
-                    <span className="mt-1 block text-xs text-bone-dim">
-                      Quickest for date checks
-                    </span>
-                  </span>
-                  <span aria-hidden className="text-sand">
-                    &rarr;
-                  </span>
-                </a>
-
-                <a
-                  href={phoneHref}
-                  className="flex items-center justify-between border border-ink-line px-6 py-5 transition-colors duration-300 hover:border-sand"
-                >
-                  <span>
-                    <span className="block text-bone">{contact.phone}</span>
-                    <span className="mt-1 block text-xs text-bone-dim">
-                      {contact.hours}
-                    </span>
-                  </span>
-                  <span aria-hidden className="text-sand">
-                    &rarr;
-                  </span>
-                </a>
-
+              <p className="eyebrow">Or email directly</p>
+              <div className="mt-5">
                 <a
                   href={`mailto:${contact.email}`}
                   className="flex items-center justify-between border border-ink-line px-6 py-5 transition-colors duration-300 hover:border-sand"
@@ -75,7 +41,7 @@ export default function ContactPage() {
                   <span>
                     <span className="block text-bone">{contact.email}</span>
                     <span className="mt-1 block text-xs text-bone-dim">
-                      For briefs and attachments
+                      Best for briefs, decks and attachments
                     </span>
                   </span>
                   <span aria-hidden className="text-sand">
@@ -94,6 +60,10 @@ export default function ContactPage() {
                     Replies {contact.responseTime}, usually with an indicative
                     quote.
                   </dd>
+                </div>
+                <div>
+                  <dt className="text-bone">Inbox hours</dt>
+                  <dd className="mt-1 text-bone-dim">{contact.hours}</dd>
                 </div>
                 <div>
                   <dt className="text-bone">Coverage</dt>
@@ -126,7 +96,7 @@ export default function ContactPage() {
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="link-underline text-sm text-bone-dim hover:text-bone"
+                    className="tap-row link-underline text-sm text-bone-dim hover:text-bone"
                   >
                     {s.label}
                   </a>

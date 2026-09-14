@@ -15,24 +15,69 @@ codebase for `TODO` to find them all in place.
 
 | What | Where | Why it matters |
 |---|---|---|
-| **Phone number** | `src/data/site.ts` → `contact.phone` | Currently `+65 0000 0000`. Powers the `tel:` link in the footer and on /contact. |
-| **WhatsApp number** | `src/data/site.ts` → `contact.whatsapp` | Digits only, no `+` or spaces (e.g. `6591234567`). Powers the floating button on every page. |
-| **Business hours** | `src/data/site.ts` → `contact.hours` | Shown next to the phone number. |
+| **Business hours** | `src/data/site.ts` → `contact.hours` | Shown in the footer and on /contact as when the inbox is watched. |
 | **Response time** | `src/data/site.ts` → `contact.responseTime` | Promised on /contact and in the form's success message. Do not promise faster than you can deliver. |
 | **Prices** | `src/data/site.ts` → `services[].priceFrom` | All `null`, so every package reads "On request". Put real numbers in and they render as "From $X". |
 | **Testimonials** | `src/data/site.ts` → `testimonials` | Empty array; the homepage section is skipped entirely while it stays empty. See the note in that file. |
 | **A photo of Larry** | `src/app/about/page.tsx` | The About page currently borrows an event frame. A personal brand needs a face. |
-| **Email sending** | Vercel env vars (below) | Until `RESEND_API_KEY` is set the form shows an error pointing at the email address rather than silently dropping enquiries. |
+| **Email sending** | `.env.local` + Vercel env vars (below) | Until `RESEND_API_KEY` is set the form shows an error pointing at the email address rather than silently dropping enquiries. Check it with `npm run check:email`. |
+| **Sender domain vs. site domain** | `ENQUIRY_FROM` | Enquiries send from `sera@claudecode.sg`. That domain *is* verified in Resend so delivery works, but on a macrostudios.sg site the From line reads oddly. Verify macrostudios.sg at [resend.com/domains](https://resend.com/domains) and switch when DNS moves. |
+
+### Contact policy
+
+Email is the only channel published on the site. There is no phone number, no `tel:`
+link and no WhatsApp button anywhere, and `telephone` is deliberately absent from the
+`ProfessionalService` structured data — every enquiry is meant to land in one inbox.
+The form's phone field is optional and is for reaching the client on the shoot day;
+replies still go back by email. See the note above `contact` in `src/data/site.ts`.
 
 ### Environment variables
 
-Set these in the Vercel project (Settings → Environment Variables):
+`cp .env.example .env.local` for development, and set the same keys in the Vercel
+project (Settings → Environment Variables) for production. `.env.example` documents
+each one; the short version is a Resend API key, an inbox, and a verified sender.
 
+Then verify the whole path without going near the form:
+
+```bash
+npm run check:email
 ```
-RESEND_API_KEY=re_...                          # from resend.com
-ENQUIRY_TO=larry@macrostudios.sg                # where enquiries land
-ENQUIRY_FROM=Macrostudios <site@macrostudios.sg> # must be a verified sender on your domain
-```
+
+It reports which of the three usual failures you have — key missing, key rejected, or
+sender domain unverified — and on success sends one real test message. **"The enquiry
+form is not connected yet" always means `RESEND_API_KEY` is unset**; the action refuses
+to pretend it sent something it did not.
+
+Until a domain is verified at [resend.com/domains](https://resend.com/domains), Resend's
+sandbox sender (`onboarding@resend.dev`) works with no DNS setup, but only delivers to
+the address that owns the Resend account.
+
+#### Who the enquiry appears to come from
+
+`ENQUIRY_FROM` must be an address on a domain you have verified. It cannot be the
+enquirer's own address — sending as a domain you do not control fails SPF and DKIM, so
+the message is refused or filed as spam. What the action does instead:
+
+| Header | Value | Effect in the inbox |
+|---|---|---|
+| `From` | `Jane Tan via Macrostudios <ENQUIRY_FROM>` | The sender column shows who enquired, not one identical address every time. |
+| `Reply-To` | the enquirer's address | Hitting reply goes straight back to them. |
+
+The display name is stripped of `"`, `<`, `>`, `@` and newlines before it goes near a
+header — it is attacker-controlled text, and those are the characters that turn a
+display name into a forged second header.
+
+### Form validation
+
+The server action in `src/app/contact/actions.ts` is the only validation that counts —
+the form posts to it directly, so `required`/`min`/`maxLength` in the markup are a
+courtesy that saves a round trip, not a gate. It checks lengths on every field, email
+and phone shape, and the shoot date: it must be a real calendar date, not in the past,
+and no more than `MAX_BOOKING_YEARS` ahead.
+
+"Today" is computed in `Asia/Singapore` (`src/app/contact/dates.ts`), not in the
+server's timezone. On a UTC host, a Singapore morning is still the previous UTC day, so
+comparing against UTC would reject an enquiry for *today* as already past.
 
 ---
 
@@ -44,7 +89,13 @@ npm run dev          # http://localhost:3000
 npm run build        # production build
 npm start            # serve the production build
 npm run lint
+npm run check:email  # prove the enquiry form can actually send
 ```
+
+**Stop `next dev` before running `next build`.** They share the `.next` directory, and a
+build (or a manual `rm -rf .next`) pulls the compiled output from under a running dev
+server — every route then 500s with a bogus "Module not found" for the Google font
+loader. The fix is always: stop the server, delete `.next`, start it again.
 
 ---
 
@@ -105,7 +156,7 @@ src/
     contact/                  page + server action + shared shoot types
     sitemap.ts robots.ts not-found.tsx
   components/                 Header, Footer, Hero, Gallery (+lightbox), LogoWall,
-                              ContactForm, Reveal, PageHeader, WhatsAppButton
+                              ContactForm, Reveal, PageHeader
   data/
     site.ts                   ⟵ business details, nav, categories, services, testimonials
     gallery.generated.json    ⟵ generated, do not edit by hand
@@ -115,6 +166,7 @@ scripts/
   optimize-images.mjs         image + logo pipeline
   caption-report.mjs          which images need captions
   measure.mjs                 first-visit transfer size per page
+  check-email.mjs             diagnoses and tests the enquiry form's email path
 ```
 
 `src/data/site.ts` is the single file to edit for copy, contact details and pricing.
@@ -130,7 +182,6 @@ scripts/
 - 90 of 93 images on the advertising page had empty `alt`. All images now carry alt text.
 - No `Cache-Control` on images, so every visit re-downloaded every photograph.
 - Nine overlapping top-level nav items reduced to five.
-- No phone or WhatsApp anywhere. WhatsApp is now on every page, phone in the footer and on /contact.
 - The contact form asked only name/email/message — every lead needed a follow-up just to
   establish what and when. It now captures shoot type and date.
 - Square `1024x1024` crops destroyed composition. Galleries are masonry at native aspect ratio.

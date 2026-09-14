@@ -8,8 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "images": "node scripts/optimize-images.mjs",
+    "brand": "node scripts/brand-assets.mjs",
     "captions": "node scripts/caption-report.mjs",
-    "measure": "node scripts/measure.mjs"
+    "measure": "node scripts/measure.mjs",
+    "check:email": "node scripts/check-email.mjs"
   },
   "dependencies": {
     "next": "16.3.5",

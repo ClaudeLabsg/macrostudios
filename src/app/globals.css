@@ -1,49 +1,145 @@
 @import 'tailwindcss';
 
 /*
+  `bleed:` — the hero runs a photograph full-bleed behind its copy.
+
+  Gated on the shape of the viewport rather than its width, because the thing that
+  breaks is `object-cover` on a 3:2 frame in a box taller than it is wide. On a
+  phone that box is roughly 0.46:1, so only the middle third of the photograph
+  survives: a twenty-person ribbon-cutting became three people and half a banner,
+  and a wide retail interior became one arch. Below 4:3 the hero splits instead —
+  photograph on top, copy underneath — and the frame stays almost whole.
+
+  The height floor excludes phones held sideways (430px and under), which pass the
+  aspect test but have nowhere to put the copy. Short desktop windows stay above it.
+*/
+@custom-variant bleed (@media (min-aspect-ratio: 4 / 3) and (min-height: 480px));
+
+/*
   Design system
   -------------
-  The work is the interface. The shell is near-black with a warm off-white so
-  photographs never compete with the UI, and a single warm-sand accent is used
-  sparingly for eyebrow labels, rules and focus rings.
-*/
-@theme {
-  --color-ink: #0b0b0c; /* page background */
-  --color-ink-raised: #141416; /* cards, header on scroll */
-  --color-ink-line: #26262a; /* hairline borders */
-  --color-bone: #f5f3f0; /* primary text */
-  --color-bone-dim: #a39d97; /* secondary text */
-  --color-sand: #c8a97e; /* the one accent */
+  The work is the interface. A single warm-sand accent is used sparingly for eyebrow
+  labels, rules and focus rings; everything else is surface and text.
 
-  --font-display: var(--font-display), Georgia, 'Times New Roman', serif;
+  Two themes, one set of tokens. The names are roles rather than literal colours —
+  `ink` is whatever the page surface is and `bone` is the text sitting on it — so the
+  pair swaps ends of the scale between themes and no component needs to know which
+  theme is active.
+
+  Light is the default because most of the people briefing a corporate shoot are
+  reading this on an office monitor. It is a warm paper grey, not white: a blown-out
+  white page competes with the photographs, which is the one thing the shell must
+  never do.
+*/
+@theme inline {
+  --color-ink: var(--surface); /* page background */
+  --color-ink-raised: var(--surface-raised); /* cards, header on scroll */
+  --color-ink-line: var(--line); /* hairline borders */
+  --color-bone: var(--fg); /* primary text */
+  --color-bone-dim: var(--fg-dim); /* secondary text */
+  --color-sand: var(--accent); /* the one accent */
+  --color-danger: var(--danger); /* form validation only */
+}
+
+@theme {
+  --font-display: var(--font-display), Georgia, serif;
   --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+/*
+  Light is also the pre-JavaScript default: the inline script in the root layout
+  swaps the class before first paint, and anyone without JS gets this.
+*/
+:root,
+.theme-light {
+  color-scheme: light;
+
+  --surface: #edeae4;
+  --surface-raised: #e3dfd8;
+  --line: #d3ccc1;
+  --fg: #1b1a18;
+  --fg-dim: #655f58;
+  /* The dark-theme sand is far too pale to read on paper, so light gets a bronze
+     cut of the same hue rather than a different accent colour. Dark enough to clear
+     4.5:1 on both surfaces — it carries the eyebrow labels, which are 12px on a
+     phone and 11px from `sm` up. */
+  --accent: #7d5c30;
+  --danger: #a3342b;
+}
+
+/*
+  `.on-media` is the same palette as dark mode, applied to a subtree rather than the
+  document: hero copy, the type over a category card, the lightbox. A photograph does
+  not get lighter when the UI does, so anything sitting on top of one stays light-on-
+  dark in both themes.
+*/
+.theme-dark,
+.on-media {
+  color-scheme: dark;
+
+  --surface: #0b0b0c;
+  --surface-raised: #141416;
+  --line: #26262a;
+  --fg: #f5f3f0;
+  --fg-dim: #a39d97;
+  --accent: #c8a97e;
+  --danger: #f87171;
+}
+
+/*
+  The wordmark and the client logos are baked as bone silhouettes on transparency
+  (see scripts/optimize-images.mjs), so on a light surface they need inverting. They
+  are strictly monochrome, which makes the inversion exact. Marks inside `.on-media`
+  are over a photograph and keep the original.
+*/
+.theme-light .logo-mono {
+  filter: invert(1);
+}
+
+.theme-light .on-media .logo-mono {
+  filter: none;
+}
+
+/* Each theme icon is rendered; CSS picks the one for the theme you are *not* in. */
+.theme-dark [data-theme-icon='moon'],
+.theme-light [data-theme-icon='sun'] {
+  display: none;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
-    background-color: var(--color-ink);
-    /* Keeps the overscroll gutter dark instead of flashing white. */
-    color-scheme: dark;
+    /* Keeps the overscroll gutter on-theme instead of flashing white. */
+    background-color: var(--surface);
+    /* Safari on iOS inflates body copy in landscape unless this is pinned. */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    /*
+      Suppress the grey flash Android/iOS paint over a tapped link. Every
+      interactive element here already has its own hover/active treatment, and the
+      flash is a rectangle that ignores the element's own shape — it looks
+      especially wrong on the round pill buttons. Focus rings are unaffected.
+    */
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {
-    background-color: var(--color-ink);
-    color: var(--color-bone);
+    background-color: var(--surface);
+    color: var(--fg);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
 
   ::selection {
-    background-color: var(--color-sand);
-    color: var(--color-ink);
+    background-color: var(--accent);
+    color: var(--surface);
   }
 
-  /* A visible, on-brand focus ring — the default one disappears on a dark background. */
+  /* A visible, on-brand focus ring — the default one disappears on either surface. */
   :focus-visible {
-    outline: 2px solid var(--color-sand);
+    outline: 2px solid var(--accent);
     outline-offset: 3px;
     border-radius: 2px;
   }
@@ -63,12 +159,52 @@
 }
 
 @layer components {
-  /* Small caps label used above section headings. */
+  /*
+    Small caps label used above section headings, and for the contact form's field
+    labels. 11px of letterspaced uppercase is legible on a monitor at arm's length
+    and marginal on a phone, so it starts at 12px and tightens from `sm` up rather
+    than being one size everywhere.
+  */
   .eyebrow {
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--color-sand);
+    color: var(--accent);
+  }
+
+  @media (min-width: 40rem) {
+    .eyebrow {
+      font-size: 0.6875rem;
+    }
+  }
+
+  /*
+    Nav links that live in a list rather than in a sentence. A 20px line of text is
+    a miss as often as a hit on a phone, so the hit area grows to the 44px WCAG
+    2.5.5 / Apple HIG target.
+
+    Done with an overlay rather than padding on purpose: `.link-underline` draws its
+    rule at the bottom of the element's box, and padding the link would strand that
+    rule 12px under the text. The pseudo-element enlarges what you can tap while the
+    box the underline is measured against stays wrapped around the words.
+
+    Callers must leave at least 44px of pitch between rows on mobile, or neighbouring
+    overlays overlap and the lower one steals the row above it.
+  */
+  .tap-row {
+    position: relative;
+  }
+
+  .tap-row::after {
+    content: '';
+    position: absolute;
+    inset: -0.75rem 0;
+  }
+
+  @media (min-width: 40rem) {
+    .tap-row::after {
+      display: none;
+    }
   }
 
   /* Underline that draws in from the left on hover. */

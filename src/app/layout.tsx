@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import { Inter, Instrument_Serif } from 'next/font/google'
+import { Inter, Playfair_Display } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import WhatsAppButton from '@/components/WhatsAppButton'
 import { site, contact } from '@/data/site'
 import './globals.css'
 
@@ -12,10 +11,14 @@ const sans = Inter({
   display: 'swap',
 })
 
-const display = Instrument_Serif({
+/*
+  Playfair Display, not a condensed serif. The headline sizes here run to 6rem and the
+  same face is reused down at 1.25rem on card titles, so it needs open letterforms and
+  a real weight range rather than a single tightly-drawn display cut.
+*/
+const display = Playfair_Display({
   variable: '--font-display',
   subsets: ['latin'],
-  weight: '400',
   display: 'swap',
 })
 
@@ -69,9 +72,11 @@ const jsonLd = {
   name: site.name,
   description: site.description,
   url: site.url,
+  // No `telephone`: email is the only published channel, so there is no number for
+  // Google to surface in the business panel. See the note on `contact` in data/site.
   email: contact.email,
-  telephone: contact.phone,
   image: `${site.url}/images/events/allianz-ap-summit-1.webp`,
+  logo: `${site.url}/images/brand/macrostudios-logo.webp`,
   priceRange: '$$',
   areaServed: { '@type': 'Country', name: 'Singapore' },
   address: { '@type': 'PostalAddress', addressCountry: 'SG' },
@@ -80,13 +85,26 @@ const jsonLd = {
   sameAs: contact.socials.map((s) => s.href),
 }
 
+/*
+  Applies the stored theme before first paint, so a returning visitor on dark never
+  sees a frame of the light default. Light rather than the system preference is the
+  deliberate default: the audience is corporate, and most of them are on a bright
+  office monitor. `theme-light` is already on the element, so this only ever has work
+  to do for someone who has chosen dark.
+*/
+const themeScript = `try{var t=localStorage.getItem('theme');if(t==='dark'){var e=document.documentElement;e.classList.remove('theme-light');e.classList.add('theme-dark');var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content','#0b0b0c')}}catch(e){}`
+
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
+    // The theme script rewrites the class list before React sees it.
     <html
       lang="en-SG"
-      className={`${sans.variable} ${display.variable} h-full antialiased`}
+      suppressHydrationWarning
+      className={`${sans.variable} ${display.variable} theme-light h-full antialiased`}
     >
       <head>
+        <meta name="theme-color" content="#edeae4" />
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         {/* Scroll-reveal starts at opacity 0; without JS nothing would ever reveal it. */}
         <noscript>
           <style>{`.reveal { opacity: 1 !important; transform: none !important; }`}</style>
@@ -104,7 +122,6 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
           {children}
         </main>
         <Footer />
-        <WhatsAppButton />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

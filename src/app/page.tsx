@@ -25,7 +25,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/clients"
-              className="link-underline shrink-0 text-sm text-bone-dim hover:text-bone"
+              className="tap-row link-underline shrink-0 text-sm text-bone-dim hover:text-bone"
             >
               See all clients &rarr;
             </Link>
@@ -60,7 +60,7 @@ export default function HomePage() {
                 >
                   <Link
                     href={`/work/${category.slug}`}
-                    className="group relative block h-full overflow-hidden bg-ink-raised"
+                    className="on-media group relative block h-full overflow-hidden bg-ink-raised"
                   >
                     <div
                       className={`relative ${wide ? 'aspect-[16/10]' : 'aspect-[4/3]'}`}
@@ -78,12 +78,20 @@ export default function HomePage() {
                           }
                           placeholder={cover.blurDataURL ? 'blur' : 'empty'}
                           blurDataURL={cover.blurDataURL || undefined}
+                          style={{ objectPosition: category.coverPosition }}
                           className="object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
                         />
                       )}
+                      {/*
+                        Heavier scrim on a phone. The card is the same 4:3 at every
+                        width but the type over it is not far off desktop size, so
+                        it covers proportionally much more of the frame — and lands
+                        on whatever happens to be there. At `via-ink/30` the titles
+                        were sitting on a bright sky and an orchid.
+                      */}
                       <div
                         aria-hidden
-                        className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent transition-opacity duration-500 group-hover:opacity-90"
+                        className="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-ink/10 transition-opacity duration-500 group-hover:opacity-90 sm:via-ink/30 sm:to-transparent"
                       />
                     </div>
 
@@ -92,7 +100,7 @@ export default function HomePage() {
                         <h3 className="font-display text-2xl text-bone lg:text-3xl">
                           {category.title}
                         </h3>
-                        <span className="shrink-0 text-xs text-bone-dim">
+                        <span className="shrink-0 text-xs text-bone sm:text-bone-dim">
                           {photoCount(category)}
                         </span>
                       </div>
@@ -125,7 +133,7 @@ export default function HomePage() {
               </p>
               <Link
                 href="/about"
-                className="link-underline mt-8 inline-block text-sm text-sand"
+                className="tap-row link-underline mt-8 inline-block text-sm text-sand"
               >
                 More about how I work &rarr;
               </Link>

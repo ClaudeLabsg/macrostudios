@@ -14,19 +14,34 @@ export const metadata: Metadata = {
   alternates: { canonical: '/about' },
 }
 
+/** Looks up one photograph by name, falling back to the category's first frame. */
+function pick(source: string, name: string) {
+  const category = categories.find((c) => c.source === source)!
+  const photos = photosFor(category)
+  return photos.find((p) => p.src.endsWith(`/${name}.webp`)) ?? photos[0]
+}
+
+/*
+ * TODO: a photograph of Larry. A personal brand needs a face and this is the page
+ * people look for one on; none was recoverable from the old site.
+ *
+ * Until then the column carries work rather than a person, and carries three frames
+ * rather than one so it reads unmistakably as a portfolio strip. A single uncaptioned
+ * image sitting under the heading "Larry Lim" reads as a portrait of him — that has
+ * already been got wrong once here, with a frame of models at an event.
+ *
+ * Chosen for range rather than for being the prettiest: an event shot, a portrait and
+ * a still life is the whole business on one screen. The DBS frame leads because it is
+ * the one that argues for the craft — a dark ballroom lit by lasers and candles is the
+ * hardest thing on this page to expose, and it is the reason a client pays for a
+ * photographer instead of a phone.
+ */
 export default function AboutPage() {
-  /*
-   * TODO: replace this with an actual photograph of Larry — a personal brand needs a
-   * face, and this is the page where people look for one.
-   *
-   * Until then it deliberately shows a piece of work rather than any person. An
-   * earlier pick happened to be a frame of models at an event, which sitting directly
-   * under the heading "Larry Lim" read as though it were a portrait of him.
-   */
-  const eventsCategory = categories.find((c) => c.source === 'events')!
-  const standIn =
-    photosFor(eventsCategory).find((p) => p.src.endsWith('/chanel-tr-dinner-10.webp')) ??
-    photosFor(eventsCategory)[0]
+  const lead = pick('events', 'dbs-private-bank-13')
+  const pair = [
+    pick('corporate', 'standard-chartered-6'),
+    pick('products', 'hais-sambal-chilli'),
+  ]
 
   return (
     <>
@@ -39,25 +54,58 @@ export default function AboutPage() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-14 lg:grid-cols-[1fr_1.2fr] lg:gap-20">
           <Reveal>
-            <figure>
+            <p className="eyebrow">Selected work</p>
+
+            <figure className="mt-5">
               <div className="relative aspect-[4/5] overflow-hidden bg-ink-raised">
-                {standIn && (
+                {lead && (
                   <Image
-                    src={standIn.src}
-                    alt={standIn.alt}
+                    src={lead.src}
+                    alt={lead.alt}
                     fill
                     quality={85}
                     sizes="(min-width: 1024px) 40vw, 100vw"
-                    placeholder={standIn.blurDataURL ? 'blur' : 'empty'}
-                    blurDataURL={standIn.blurDataURL || undefined}
+                    placeholder={lead.blurDataURL ? 'blur' : 'empty'}
+                    blurDataURL={lead.blurDataURL || undefined}
                     className="object-cover"
                   />
                 )}
               </div>
               <figcaption className="mt-3 text-xs text-bone-dim">
-                {standIn?.caption} &middot; Singapore
+                {lead?.caption} &middot; Singapore
               </figcaption>
             </figure>
+
+            <div className="mt-6 grid grid-cols-2 gap-4">
+              {pair.map((photo) =>
+                photo ? (
+                  <figure key={photo.src}>
+                    <div className="relative aspect-square overflow-hidden bg-ink-raised">
+                      <Image
+                        src={photo.src}
+                        alt={photo.alt}
+                        fill
+                        quality={85}
+                        sizes="(min-width: 1024px) 20vw, 45vw"
+                        placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+                        blurDataURL={photo.blurDataURL || undefined}
+                        className="object-cover"
+                      />
+                    </div>
+                    <figcaption className="mt-3 text-xs text-bone-dim">
+                      {photo.caption}
+                    </figcaption>
+                  </figure>
+                ) : null
+              )}
+            </div>
+
+            <Link
+              href="/work"
+              className="tap-row link-underline mt-7 inline-block text-sm text-sand"
+            >
+              See the full portfolio &rarr;
+            </Link>
           </Reveal>
 
           <Reveal delay={100} className="space-y-6 text-base leading-relaxed text-bone-dim">

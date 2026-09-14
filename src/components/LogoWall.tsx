@@ -10,8 +10,9 @@ import { clientLogos } from '@/lib/gallery'
  *
  * The source files are a mix of black-on-white JPEGs and transparent PNGs, so the
  * build step (scripts/optimize-images.mjs) reduces each one to a bone-coloured
- * silhouette. They are already monochrome here — no CSS filter needed — and sit at
- * reduced opacity so the wall reads as texture until you look at it directly.
+ * silhouette. Being strictly monochrome is what lets `logo-mono` flip them for the
+ * light theme with a plain inversion. They sit at reduced opacity so the wall reads
+ * as texture until you look at it directly.
  */
 export default function LogoWall({ limit }: { limit?: number }) {
   const logos = limit ? clientLogos().slice(0, limit) : clientLogos()
@@ -28,7 +29,7 @@ export default function LogoWall({ limit }: { limit?: number }) {
             loading="lazy"
             quality={90}
             sizes="(min-width: 1024px) 160px, (min-width: 640px) 20vw, 40vw"
-            className="h-9 w-auto max-w-[150px] object-contain opacity-60 transition-opacity duration-500 hover:opacity-100 lg:h-11"
+            className="logo-mono h-9 w-auto max-w-[150px] object-contain opacity-60 transition-opacity duration-500 hover:opacity-100 lg:h-11"
           />
         </li>
       ))}
