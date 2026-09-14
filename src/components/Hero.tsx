@@ -64,17 +64,25 @@ export default function Hero({ photos }: { photos: Photo[] }) {
 
   return (
     /*
-      `on-media` keeps the scrims and the copy on the dark palette in both themes.
-      It covers the copy in the split layout too, where that copy has left the
-      photograph: the hero stays one dark object either way, which is also what the
-      header assumes when it goes transparent over the top of it.
+      `mt-20` clears the fixed header, which is `h-20` and carries its own surface:
+      the hero starts below the bar rather than running underneath it, so no part of
+      a photograph is ever hidden behind the nav. That is also why there is no longer
+      a scrim across the top of the frame — there is nothing sitting on it to keep
+      legible. Other pages clear the same 5rem through PageHeader's own top padding.
+
+      The `bleed` height subtracts the bar for the same reason, so the bar plus the
+      hero still come to exactly one screen.
+
+      `on-media` keeps the scrim and the copy on the dark palette in both themes. It
+      covers the copy in the split layout too, where that copy has left the
+      photograph: the hero stays one dark object either way.
     */
-    <section className="on-media relative flex flex-col bg-ink bleed:h-[100svh] bleed:min-h-[600px] bleed:justify-end">
+    <section className="on-media relative mt-20 flex flex-col bg-ink bleed:h-[calc(100svh-5rem)] bleed:min-h-[520px] bleed:justify-end">
       {/*
         The photograph. A band in normal flow on a phone; the whole section from
         `bleed` up, with the copy sitting on top of it.
       */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden sm:aspect-[16/9] bleed:absolute bleed:inset-0 bleed:aspect-auto">
+      <div className="relative aspect-[4/3] max-h-[36svh] w-full overflow-hidden bleed:absolute bleed:inset-0 bleed:aspect-auto bleed:max-h-none">
         {photos.map((photo, i) => (
           <Image
             key={photo.src}
@@ -107,16 +115,6 @@ export default function Hero({ photos }: { photos: Photo[] }) {
           aria-hidden
           className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink to-transparent bleed:inset-0 bleed:h-auto bleed:via-ink/65 bleed:to-ink/30"
         />
-        {/*
-          A second, short gradient under the fixed header, without which the nav
-          links disappear entirely over a pale frame (the Chanel retail shot, for
-          one). Shorter on a phone, where the band itself is only ~290px tall.
-        */}
-        <div
-          aria-hidden
-          className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-ink/85 to-transparent bleed:h-40"
-        />
-
         {/*
           Tap anywhere on the photograph to advance. It sits above the scrims but
           below the indicators, and it is scoped to the band rather than the whole
@@ -169,22 +167,22 @@ export default function Hero({ photos }: { photos: Photo[] }) {
         Full-bleed, this block floats over the photograph and passes clicks through
         to the advance target behind it, except on its own links.
       */}
-      <div className="relative mx-auto w-full max-w-7xl px-6 pb-16 pt-9 lg:px-10 lg:pb-28 bleed:pointer-events-none bleed:pt-0">
+      <div className="relative mx-auto w-full max-w-7xl px-6 pb-14 pt-8 sm:pb-16 sm:pt-9 lg:px-10 lg:pb-28 bleed:pointer-events-none bleed:pt-0">
         <p className="eyebrow">Singapore &middot; Est. 2014</p>
 
-        <h1 className="mt-5 max-w-4xl font-display text-[clamp(2.75rem,8vw,6rem)] leading-[0.95] tracking-tight text-bone">
+        <h1 className="mt-4 max-w-4xl font-display text-[clamp(2.75rem,8vw,6rem)] leading-[0.95] tracking-tight text-bone sm:mt-5">
           Twenty years of
           <br />
           <span className="text-sand">getting the shot.</span>
         </h1>
 
-        <p className="mt-7 max-w-xl text-base leading-relaxed text-bone-dim sm:text-lg">
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-bone-dim sm:mt-7 sm:text-lg">
           Corporate events, portraits, products and campaigns — photographed for
           brands that only get one take.
         </p>
 
         {/* pointer-events restored here only, so these stay clickable. */}
-        <div className="pointer-events-auto mt-10 flex flex-wrap gap-4">
+        <div className="pointer-events-auto mt-8 flex flex-wrap gap-4 sm:mt-10">
           <Link
             href="/work"
             className="rounded-full bg-bone px-7 py-3.5 text-sm font-medium text-ink transition-colors duration-300 hover:bg-sand"

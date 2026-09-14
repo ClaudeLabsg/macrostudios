@@ -10,10 +10,12 @@
   and a wide retail interior became one arch. Below 4:3 the hero splits instead —
   photograph on top, copy underneath — and the frame stays almost whole.
 
-  The height floor excludes phones held sideways (430px and under), which pass the
-  aspect test but have nowhere to put the copy. Short desktop windows stay above it.
+  Shape only, with no height floor: a phone held sideways is 2.16:1, which is the
+  best box any of these frames gets, and forcing it down the split path instead gave
+  it a 140px letterbox strip with the speaker's head cut off. Copy that runs past a
+  390px-tall viewport is the cheaper problem — it scrolls.
 */
-@custom-variant bleed (@media (min-aspect-ratio: 4 / 3) and (min-height: 480px));
+@custom-variant bleed (@media (min-aspect-ratio: 4 / 3));
 
 /*
   Design system
